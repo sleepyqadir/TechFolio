@@ -1,0 +1,69 @@
+
+
+/*=====================
+  
+  Skills Section Css
+
+==========================*/
+
+
+.skills_section_skill {
+  color: #94a1b2;
+  letter-spacing: -0.4px;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.skills_section_skillsSets {
+  height: 180px;
+}
+
+.skill_img {
+  font-size: 48px;
+  color: #72757e;
+}
+
+.skill_img:hover {
+  color: #7f5af0;
+}
+
+@media all and (max-width: 450px) {
+  .portfolio_skill_section_img {
+    width: 100%;
+  }
+  .portfolio_skill_section_skill {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .portfolio_skill_section_skill_sets {
+    height: 150px;
+  }
+  .skill_img {
+    font-size: 30px;
+    color: #72757e;
+  }
+  .skill_img:hover {
+    color: #7f5af0;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .skills_section_skill {
+    line-height: 32px;
+    font-size: 22px;
+  }
+  .portfolio_skill_section_img {
+    width: 60vw;
+  }
+  .portfolio_skill_section_skill {
+    font-size: 20px;
+  }
+  .portfolio_skill_section_skill_sets {
+    height: 200px;
+  }
+  .skill_img {
+    font-size: 60px;
+    color: #72757e;
+  }
+}
