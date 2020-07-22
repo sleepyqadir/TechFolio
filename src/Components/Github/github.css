@@ -1,0 +1,318 @@
+
+
+/*=====================
+  
+  Open Source Section Css
+
+==========================*/
+
+.repo_card {
+  color: #94a1b2;
+  background-color: #242629;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -15px;
+  padding: 1.5rem;
+  cursor: pointer;
+  margin: 10px;
+}
+.repo_card:hover {
+  box-shadow: #7f5af0 0px 10px 10px -10px;
+}
+.repo_card .repo_stats {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #fffffe;
+}
+.repo_card .repo_stats .repo_stats_left {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: flex;
+}
+.repo_card .repo_stats .repo_stats_left span {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 0.75rem;
+}
+.repo_card .repo_stats .repo_stats_left .language_color {
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  margin-right: 0.25rem;
+  border-radius: 100%;
+}
+.repo_card .repo_stats .repo_stats_left .repo_stars {
+  margin-right: 0.3rem;
+}
+.repo_card .repo_title_container {
+  display: flex;
+  align-items: center;
+}
+.repo_card .repo_title_container .repo_title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #fffffe;
+  margin-bottom: 0.75rem;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  overflow: hidden;
+  margin: 0px;
+}
+.repo_card .repo_description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.githubRepoCards {
+  margin-bottom: 30px;
+}
+
+.repo-svg {
+  margin-right: 0.5rem;
+  min-width: 22px;
+  color: #fffffe !important;
+}
+
+/* // error msg */
+.error,
+.success {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  margin: 0 1rem;
+  border-radius: 50px;
+}
+
+.msg-error {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin: 4.5rem auto 2.9rem auto;
+  animation: float 2s ease-in-out infinite alternate;
+}
+.msg-error::before,
+.msg-error::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.msg-error::before {
+  bottom: 0;
+  left: 50%;
+  background-color: #f3f3f4;
+  transform: rotate(10deg);
+  -webkit-clip-path: polygon(
+    100% 0,
+    100% 100%,
+    16% 100%,
+    0 85%,
+    17% 70%,
+    0 55%,
+    20% 41%,
+    0 30%,
+    20% 13%,
+    0 0
+  );
+  clip-path: polygon(
+    100% 0,
+    100% 100%,
+    16% 100%,
+    0 85%,
+    17% 70%,
+    0 55%,
+    20% 41%,
+    0 30%,
+    20% 13%,
+    0 0
+  );
+  animation: move-left 2s ease-in-out infinite alternate;
+}
+.msg-error::after {
+  bottom: 0;
+  right: 60%;
+  background-color: #f3f3f4;
+  transform: rotate(-10deg);
+  -webkit-clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    100% 100%,
+    84% 85%,
+    100% 70%,
+    83% 54%,
+    100% 43%,
+    82% 28%,
+    100% 14%,
+    81% 0
+  );
+  clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    100% 100%,
+    84% 85%,
+    100% 70%,
+    83% 54%,
+    100% 43%,
+    82% 28%,
+    100% 14%,
+    81% 0
+  );
+  animation: move-right 2s ease-in-out infinite alternate;
+}
+.msg-error .letter {
+  z-index: 1000;
+  position: absolute;
+  left: 8px;
+  bottom: 5%;
+  height: 55px;
+}
+.msg-error .letter::before,
+.msg-error .letter::after {
+  content: "";
+  position: absolute;
+  width: 26px;
+  border: 2px solid #a4b0be;
+  box-shadow: 0 9px 0 #ced6e0, 0 18px 0 #ced6e0, 0 27px 0 #ced6e0;
+}
+.msg-error .letter::before {
+  bottom: 60%;
+  right: -18px;
+  transform: rotate(-10deg);
+  animation: move-right 2s ease-in-out infinite alternate;
+}
+.msg-error .letter::after {
+  bottom: 60%;
+  left: 58px;
+  transform: rotate(10deg);
+  animation: move-left 2s ease-in-out infinite alternate;
+}
+
+@keyframes move-right {
+  from {
+    transform: rotate(-15deg), translateX(0);
+  }
+  to {
+    transform: translateX(8px);
+  }
+}
+
+@keyframes move-left {
+  from {
+    transform: rotate(15deg), translateX(0);
+  }
+  to {
+    transform: translateX(-8px);
+  }
+}
+
+.shadow {
+  position: absolute;
+  top: 135px;
+  left: 110px;
+  width: 100px;
+  height: 20px;
+  background-color: #616161;
+  border-radius: 50%;
+  opacity: 0.65;
+  animation: shadow 2s ease-in-out infinite alternate;
+}
+
+@keyframes shadow {
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+.title {
+  font-size: 180%;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.message {
+  position: absolute;
+  bottom: 20%;
+  font-size: 110%;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+/*//// loading message */
+.msg-success {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin: 4.5rem auto 2.9rem auto;
+  background-color: #dfe4ea;
+  border-radius: 5px;
+  animation: float 2s ease-in-out infinite alternate;
+}
+.msg-success::before,
+.msg-success::after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-width: 23px 50px;
+}
+.msg-success::after {
+  bottom: 1px;
+  left: 0;
+  border-right-color: #dfe4ea;
+  border-bottom-color: #f3f3f4;
+  border-left-color: #f3f3f4;
+  border-radius: 0 0 5px 5px;
+  transform: rotate(360deg);
+}
+.msg-success .letter {
+  position: absolute;
+  left: 8px;
+  bottom: 40%;
+  width: 85px;
+  height: 55px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.msg-success .letter::before,
+.msg-success .letter::after {
+  content: "";
+  position: absolute;
+  bottom: 62%;
+  left: 8px;
+  border: 2px solid #a4b0be;
+}
+.msg-success .letter::after {
+  width: 70px;
+  box-shadow: 0 9px 0 #ced6e0, 0 18px 0 #ced6e0, 0 27px 0 #ced6e0;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@media all and (max-width: 450px) {
+  .repo-card-div {
+    padding: 1rem;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .repo_card {
+    padding: 2rem;
+  }
+  .repo_card .repo_stats {
+    font-size: 16x;
+  }
+  .repo_card .repo_description {
+    font-size: 18px;
+  }
+}
