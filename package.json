@@ -1,0 +1,51 @@
+{
+  "name": "dev",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.3.3",
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.1.0",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-device-detect": "^1.13.1",
+    "react-dom": "^16.13.1",
+    "react-easy-emoji": "^1.4.0",
+    "react-flexbox-grid": "^2.1.2",
+    "react-helmet": "^6.1.0",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16",
+    "react-typist": "^2.0.5",
+    "react-visibility-sensor": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
