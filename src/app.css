@@ -1,0 +1,929 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: TechFolio
+    Description: A openSource portfolio site
+    Author: Abdul Qadir
+    Author URI: 
+
+----------------------------------------------------------------------------------- */
+/* 1. General CSS
+   1.1. Button CSS
+   1.2. Wrapper CSS
+   1.3. Section CSS
+   1.3.1 Section illustration Css
+   1.3.2 Section emoji Css
+   1.4 Site Css
+   1.4.1 Site Container Css
+   1.4.2 Site Layout Css 
+   1.4.3 Site Header css */
+/* 2. Logo Css */
+/* 3. Banner CSS  */
+/* 4. Navbar CSS  */
+/* 5. Side navbar CSS */
+/* 6. Footer CSS  */
+/* 7. Scroll icon CSS  
+   7.1 mouse icon
+   7.2 hand icon */
+/* 8. Media queries CSS */
+
+/*=====================
+    1.General CSS 
+==========================*/
+
+a {
+  text-decoration: none;
+}
+.btn {
+  letter-spacing: -1.12px;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  font-weight: 300;
+  color: #fff;
+  position: relative;
+  background-color: #16161a;
+}
+
+section {
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #16161a;
+  overflow-x: hidden !important;
+}
+.section_illustration {
+  width: 40vw;
+}
+.emoji {
+  width: 30px;
+  margin-right: 10px !important;
+}
+.site-container {
+  width: 95vw;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-layout-content {
+  padding: 24px;
+  min-height: 280px;
+}
+.site-header {
+  background-color: #16161a;
+}
+
+/*=====================
+    2. TechFolio Logo Css
+==========================*/
+
+.logo {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 1rem 0;
+  font-style: italic;
+  position: fixed;
+}
+.logo--stroke {
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ffffff;
+  -moz-text-stroke-color: #ffffff;
+  color: transparent;
+}
+.logo--shadow {
+  text-shadow: 6px 6px #7f5af0;
+}
+
+/*=====================
+    3. TechFolio Banner Css
+==========================*/
+.banner-content {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.banner-content p {
+  color: #94a1b2;
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 17px;
+}
+.banner-content h1 {
+  color: #fffffe;
+  margin-top: -45px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  line-height: 76px;
+}
+.banner-content .banner_btns {
+  display: flex;
+}
+.banner-content .btn-1 {
+  border: none;
+  margin-top: 10px;
+  width: 137px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #1f2027;
+  align-items: center;
+  justify-content: center;
+  color: #fffffe;
+
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  margin-right: 10px;
+}
+.banner-content .btn-1:hover {
+  box-shadow: 0 3px 10px #7f5af0 !important;
+}
+
+.wrap-image,
+.wrap-default {
+  position: relative;
+}
+
+.wrap-image img{
+  max-width: 100% !important;
+}
+
+.wrap-default img {
+  width: 90vh !important;
+  margin-right: -200px;
+}
+.wrap-image::before,
+.wrap-image::after,
+.wrap-default::before,
+.wrap-default::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  border: 2px solid #7f5af0;
+  transition: all 0.25s ease-out;
+}
+.wrap-image::before,
+.wrap-default::before {
+  background-color: #7f5af0;
+  top: -15px;
+  left: -30px;
+}
+.wrap-image::after,
+.wrap-default::after {
+  bottom: -15px;
+  left: 30px;
+}
+.wrap-image:hover::before,
+.wrap-default:hover::before {
+  top: 15px;
+  left: 30px;
+}
+.wrap-image:hover::after,
+.wrap-default:hover::after {
+  bottom: 15px;
+  left: -25px;
+}
+
+/*=====================
+    4. TechFolio Navber Css
+==========================*/
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: hidden;
+  transition: opacity 0.35s, visibility 0.35s, width 0.35s;
+  z-index: 50;
+}
+.overlay:before {
+  content: "";
+  background: #7f5af0;
+  left: -55%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  transition: left 0.35s ease;
+}
+.overlay:after {
+  content: "";
+  background: #7f5af0;
+  right: -55%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.35s ease;
+}
+.overlay.open {
+  opacity: 0.9;
+  visibility: visible;
+  height: 100%;
+}
+.overlay.open:before {
+  left: 0;
+}
+.overlay.open:after {
+  right: 0;
+}
+.overlay.open li {
+  animation: fadeInRight 0.5s ease forwards;
+  animation-delay: 0.35s;
+}
+.overlay.open li:nth-of-type(2) {
+  animation-delay: 0.45s;
+}
+.overlay.open li:nth-of-type(3) {
+  animation-delay: 0.55s;
+}
+.overlay.open li:nth-of-type(4) {
+  animation-delay: 0.65s;
+}
+.overlay nav {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+
+  font-weight: 400;
+  text-align: center;
+  z-index: 100;
+}
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlay ul li {
+  display: block;
+  height: 20%;
+  height: calc(100% / 7);
+  min-height: 50px;
+  position: relative;
+  opacity: 0;
+}
+.overlay ul li p {
+  display: block;
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  overflow: hidden;
+}
+.overlay ul li p:hover:after,
+.overlay ul li p:focus:after,
+.overlay ul li p:active:after {
+  width: 100%;
+}
+.overlay ul li p:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #ffffff;
+  transition: 0.35s;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+/*=====================
+    5. TechFolio Side Navber Css
+==========================*/
+.side_nav_heading {
+  font-size: 2rem;
+}
+
+.nav__wrapper {
+  overflow: hidden !important;
+  position: fixed;
+  height: 100%;
+  padding: 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  z-index: 100;
+}
+
+.nav {
+  margin: 0 0 140px 20px;
+}
+
+.nav__counter {
+  font-size: 22px;
+  transition: all 0.15s ease-out;
+}
+
+.nav__title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0 0 1rem;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+  letter-spacing: 2px;
+  font-style: italic;
+  position: fixed;
+}
+.nav__title--stroke {
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ffffff;
+  -moz-text-stroke-color: #ffffff;
+  color: transparent;
+}
+.nav__title--shadow {
+  text-shadow: 6px 6px #7f5af0;
+}
+
+.nav li {
+  position: relative;
+  transition: all 0.3s ease-out;
+  margin-bottom: 2.2rem;
+  list-style: none;
+}
+.nav li::after {
+  content: "";
+  display: block;
+  border-left: 2px solid #72757e;
+  border-top: 2px solid #72757e;
+  height: 250px;
+  width: 20px;
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+.nav li a {
+  display: block;
+  padding: 0;
+  color: #fff;
+  transition: all 0.15s ease-out;
+}
+.nav li a:hover {
+  background-color: transparent;
+  padding-left: 1em;
+}
+.nav li a:focus {
+  background-color: transparent;
+}
+.nav li.active {
+  pointer-events: none;
+  padding-left: 1em;
+}
+.nav li.active:after {
+  width: 35px;
+  height: 400px;
+  top: 35px;
+}
+.nav li.active .nav__counter {
+  font-size: 36px;
+}
+.nav li.active .nav__title {
+  height: 40px;
+  opacity: 1;
+  overflow: visible;
+}
+.nav li.active .nav__body {
+  height: 100px;
+  opacity: 1;
+  overflow: visible;
+}
+
+/*=====================
+    6. TechFolio Footer Css
+==========================*/
+footer {
+  background: #242629;
+  padding: 5px 100px;
+  width: 100%;
+  border-radius: 0;
+  position: relative;
+}
+footer .content .content_logo {
+  width: 100px;
+  margin-right: 10px;
+}
+footer .content .techfolio_copyright {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*=====================
+    7. TechFolio Scroll Icon Css
+==========================*/
+
+.icon-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  top: 12.5%;
+  transform: translate(-50%, -50%);
+}
+
+.mouse-icon {
+  position: relative;
+}
+.mouse-icon .mouse {
+  width: 15px;
+  height: 24.625px;
+  background: transparent;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 3px;
+  border: 2px solid white;
+}
+.mouse-icon .mouse:after {
+  content: "";
+  background: white;
+  width: 2px;
+  height: 4px;
+  position: absolute;
+  top: 5px;
+  left: 58%;
+  margin-left: -2px;
+  border-radius: 20px;
+  -webkit-animation: scrollAnim 1.1s infinite;
+  animation: scrollAnim 1.1s infinite;
+}
+.mouse-icon .arrow {
+  width: 3px;
+  height: 3px;
+  display: block;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: relative;
+  margin: 0 auto;
+  -webkit-animation: arrowAnim 1.2s infinite;
+  animation: arrowAnim 1.2s infinite;
+}
+.mouse-icon .arrow.arrow-01 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.mouse-icon .arrow.arrow-02 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.mouse-icon .arrow.arrow-03 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+@-webkit-keyframes scrollAnim {
+  from {
+    top: 5px;
+  }
+  to {
+    top: 15px;
+    opacity: 0;
+  }
+}
+
+@keyframes scrollAnim {
+  from {
+    top: 5px;
+  }
+  to {
+    top: 15px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes arrowAnim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes arrowAnim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.hand-icon {
+  position: relative;
+}
+
+.hand {
+  background: #fff;
+  width: 4px;
+  height: 12.5px;
+  border-radius: 20px;
+  position: relative;
+  left: 125px;
+  margin-bottom: 17px;
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  -webkit-animation: handAnim 1.2s infinite;
+  animation: handAnim 1.2s infinite;
+}
+.hand:after {
+  content: "";
+  background: #fff;
+  width: 17px;
+  height: 18px;
+  border-radius: 4px 8px 38px 15px;
+  -webkit-transform: rotate(6deg) skewY(10deg);
+  transform: rotate(6deg) skewY(10deg);
+  position: absolute;
+  top: 13px;
+  left: -1px;
+}
+.hand:before {
+  content: "";
+  background: #fff;
+  width: 6px;
+  height: 17px;
+  border-radius: 2px 40px 20px 20px;
+  position: absolute;
+  top: 12px;
+  left: -6px;
+  -webkit-transform: rotate(-38deg);
+  transform: rotate(-38deg);
+}
+.hand .circle {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  opacity: 0.5;
+  -webkit-animation: circleAnim 1.2s infinite 2.1s;
+  animation: circleAnim 1.2s infinite 2.1s;
+}
+@-webkit-keyframes handAnim {
+  0% {
+    top: 20px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: -20px;
+    opacity: 0;
+  }
+}
+
+@keyframes handAnim {
+  0% {
+    top: 20px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: -20px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes circleAnim {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/*=====================
+    8. TechFolio responsive media queries
+==========================*/
+
+@media all and (min-width: 1400px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+  .nav {
+    margin: 0 0 240px 30px;
+  }
+  .banner-content {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .banner-content p {
+    font-size: 21px;
+  }
+  .banner-content h1 {
+    margin: auto;
+    font-size: 70px;
+  }
+  .nav__counter {
+    font-size: 24px;
+    transition: all 0.15s ease-out;
+  }
+  .nav__title {
+    font-size: 2rem;
+  }
+  section {
+    margin-bottom: 0vw;
+  }
+  .mouse-icon .mouse {
+    width: 25px;
+    height: 38.75px;
+  }
+  .mouse-icon .mouse:after {
+    width: 4px;
+    height: 6px;
+    left: 50%;
+  }
+  .mouse-icon .arrow {
+    width: 6px;
+    height: 6px;
+  }
+  .nav li.active .nav__counter {
+    font-size: 48px;
+  }
+}
+@media all and (max-width: 360px) {
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content p {
+    font-size: 16px !important;
+  }
+  .banner-content h1 {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+}
+@media all and (max-width: 450px) {
+  .logo {
+    font-size: 1.5rem;
+    position: absolute;
+  }
+  .icon-wrapper {
+    top: 11%;
+  }
+  .wrap-default img {
+    max-width: 100%;
+    margin-right: 0px;
+  }
+  .wrap-default::before,
+  .wrap-default::after {
+    width: 0%;
+    height: 0%;
+    border: 0px solid #7f5af0;
+  }
+  .wrap-default::before {
+    background-color: transparent;
+  }
+  /*-----------------------------------  */
+
+  section {
+    overflow-x: hidden;
+    min-height: 80vh;
+    margin-bottom: 10vh;
+  }
+  .heading {
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin: 1rem 0;
+  }
+  /*-----------------------------------  */
+  .nav {
+    margin: 0 0 120px 0px;
+  }
+  .nav__counter {
+    font-size: 18px;
+  }
+  .nav__title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0 0 1rem;
+    width: 300px;
+  }
+  .nav li {
+    margin-bottom: 1rem;
+    list-style: none;
+  }
+  .nav li::after {
+    content: "";
+    display: block;
+    border-left: 2px solid #72757e;
+    border-top: 2px solid #72757e;
+    height: 250px;
+    width: 10px;
+    position: absolute;
+    left: -30px;
+    top: 15px;
+  }
+  .nav li a {
+    display: block;
+    padding: 0;
+    color: #fff;
+    transition: all 0.15s ease-out;
+  }
+  .nav li a:hover {
+    background-color: transparent;
+    padding-left: 1em;
+  }
+  .nav li a:focus {
+    background-color: transparent;
+  }
+  .nav li.active {
+    pointer-events: none;
+    padding-left: 1em;
+  }
+  .nav li.active:after {
+    width: 25px;
+    height: 400px;
+    top: 35px;
+  }
+  .nav li.active .nav__counter {
+    font-size: 36px;
+  }
+  .nav li.active .nav__title {
+    height: 40px;
+    opacity: 1;
+    overflow: visible;
+  }
+  .nav li.active .nav__body {
+    height: 100px;
+    opacity: 1;
+    overflow: visible;
+  }
+  /*-----------------------------------  */
+  .wrap-image {
+    position: relative;
+    width: 45%;
+    margin: auto;
+  }
+  .wrap-image::before,
+  .wrap-image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 2px solid #7f5af0;
+    transition: all 0.25s ease-out;
+  }
+  .wrap-image::before {
+    background-color: #7f5af0;
+    top: -15px;
+    left: -30px;
+  }
+  .wrap-image::after {
+    bottom: -15px;
+    left: 30px;
+  }
+  .wrap-image:hover::before {
+    top: 15px;
+    left: 30px;
+  }
+  .wrap-image:hover::after {
+    bottom: 15px;
+    left: -25px;
+  }
+  .btn {
+    letter-spacing: -1.12px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.4s;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  .header-btns .btn-2 a {
+    color: #fffffe;
+
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+  /*-----------------------------------  */
+  .banner-btns .btn-3:hover {
+    box-shadow: 0 2px 10px #7f5af0 !important;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .banner-content h1 {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .banner-content .btn-1 {
+    font-size: 14px;
+    width: 96px;
+    height: 32px;
+  }
+
+  /*-----------------------------------  */
+  footer {
+    width: 90vw;
+    padding: 5px 30px;
+  }
+  footer .content .content_logo {
+    width: 80px;
+    margin-right: 10px;
+  }
+  footer .content .techfolio_copyright {
+    font-size: 14px;
+  }
+  /*-----------------------------------  */
+  .overlay nav {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) {
+  .site-header {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .site-header {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 1600px) {
+  .nav {
+    margin: 0 0 240px 30px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .nav {
+    margin: 0 0 260px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-header {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .site-header {
+    padding-top: 15px;
+  }
+}
