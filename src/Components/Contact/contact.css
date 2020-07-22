@@ -1,0 +1,193 @@
+
+/*=====================
+  
+  Contact Section Css
+
+==========================*/
+
+@charset "UTF-8";
+@font-face {
+  font-family: "icomoon";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/icomoon.eot?3qkin2");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/icomoon.eot?#iefix3qkin2")
+      format("embedded-opentype"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/icomoon.woff?3qkin2")
+      format("woff"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/icomoon.ttf?3qkin2")
+      format("truetype"),
+    url("fhttps://s3-us-west-2.amazonaws.com/s.cdpn.io/93/icomoon.svg?3qkin2#icomoon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.contact_section_tagline {
+  margin-bottom: 45px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.contact_section_contact {
+  color: #fffffe;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+.contact_section_contact:hover {
+  color: #7f5af0;
+}
+
+.social-networks {
+  margin: 0 0 35px;
+  padding: 0;
+  font-size: 0;
+}
+.social-networks li {
+  display: inline-block;
+}
+.social-networks .ham {
+  z-index: 100;
+  position: relative;
+  margin: 10px 10px;
+  width: 68px;
+  height: 68px;
+  font-size: 0;
+  line-height: 0;
+  border-radius: 50%;
+  background-color: #1f2027;
+}
+.social-networks .ham:hover,
+.social-networks .ham:focus {
+  box-shadow: 0 2px 15px #7f5af0 !important;
+}
+.social-networks .hamBurger {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-right: 23px;
+}
+.social-networks .social-network-link {
+  display: block;
+  position: relative;
+  margin: 0 7px;
+  width: 68px;
+  height: 68px;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  text-decoration: none;
+}
+.social-networks .social-network-link:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  margin-top: -50%;
+  margin-left: -50%;
+  border-radius: 100px;
+  background-color: #1f2027;
+  transition: all 400ms;
+}
+.social-networks .social-network-link:after {
+  position: relative;
+  display: block;
+  font-family: "icomoon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #fff;
+  font-size: 26px;
+  line-height: 66px;
+}
+.social-networks .social-network-link:hover,
+.social-networks .social-network-link:focus {
+  text-decoration: none;
+}
+.social-networks.spin-icon a:hover:after,
+.social-networks.spin-icon a:focus:after {
+  transition: transform 0.4s ease-out;
+  transform: rotateZ(360deg);
+}
+.social-networks .icon-linkedin:after {
+  content: "";
+}
+.social-networks .icon-linkedin:hover:before,
+.social-networks .icon-linkedin:focus:before {
+  box-shadow: 0 2px 15px #7f5af0 !important;
+}
+.social-networks .icon-facebook:after {
+  content: "";
+}
+.social-networks .icon-facebook:hover:before,
+.social-networks .icon-facebook:focus:before {
+  box-shadow: 0 2px 15px #7f5af0 !important;
+}
+.social-networks .icon-twitter:after {
+  content: "";
+}
+.social-networks .icon-twitter:hover:before,
+.social-networks .icon-twitter:focus:before {
+  box-shadow: 0 2px 15px #7f5af0 !important;
+}
+.social-networks .icon-github:after {
+  content: "";
+}
+.social-networks .icon-github:hover:before,
+.social-networks .icon-github:focus:before {
+  box-shadow: 0 2px 15px #7f5af0 !important;
+}
+.social-networks .icon-instagram:after {
+  content: "";
+}
+.social-networks .icon-instagram:hover:before,
+.social-networks .icon-instagram:focus:before {
+  box-shadow: 0 2px 15px #7f5af0 !important;
+}
+.social-networks .icon-menu:after {
+  content: "";
+}
+.social-networks .icon-menu:hover:before,
+.social-networks .icon-menu:focus:before {
+  box-shadow: 0 2px 15px #7f5af0 !important;
+}
+
+@media all and (max-width: 450px) {
+  .social-networks .ham {
+    margin: 10px 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .social-networks .hamBurger {
+    font-size: 26px;
+    margin-top: 12px;
+    margin-right: 14px;
+  }
+  .social-networks .social-network-link {
+    margin: 0 7px;
+    width: 50px;
+    height: 50px;
+  }
+  .social-networks .social-network-link:after {
+    font-size: 26px;
+    line-height: 50px;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .contact_section_contact {
+    font-size: 28px !important;
+  }
+  .contact_section_contact h2 {
+    letter-spacing: 2px;
+  }
+  .contact_section_contact img {
+    font-size: 18px !important;
+  }
+  .contact_section_tagline {
+    font-size: 40px !important;
+  }
+}
