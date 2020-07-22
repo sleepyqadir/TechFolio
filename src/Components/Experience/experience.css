@@ -1,0 +1,371 @@
+
+
+/*=====================
+  
+  Experience Section Css
+
+==========================*/
+
+.experience-row-animation {
+  z-index: 1;
+}
+
+.experience-row-animation .experience_column {
+  z-index: 2;
+}
+
+.experience_time_line_vertical {
+  z-index: 1;
+  padding: 70px 0;
+}
+
+.experience_time_line_vertical:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 2px;
+  left: 50%;
+  top: 0;
+  margin-left: -1px;
+  background: -webkit-linear-gradient(
+    top,
+    transparent 0%,
+    rgba(63, 71, 103, 0.15) 100px,
+    rgba(63, 71, 103, 0.15) calc(100% - 100px),
+    transparent 100%
+  );
+}
+
+.experience_time_line_vertical .time_line-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  transition: opacity 0.5s;
+}
+
+.experience_time_line_vertical .time_line-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.experience_time_line_vertical
+  .time_line-item:nth-child(even)
+  .time_line-date_wrap {
+  margin-right: calc(50% - 10px);
+  margin-left: 50px;
+}
+
+.experience_time_line_vertical .time_line-item:nth-child(even) .time_line-date {
+  right: auto;
+  left: 100%;
+  padding-left: 50px;
+  padding-right: 0;
+}
+
+.experience_time_line_vertical
+  .time_line-item:nth-child(even)
+  .time_line-image {
+  left: 0;
+  right: auto;
+}
+
+.experience_time_line_vertical
+  .time_line-item:nth-child(even)
+  .time_line-content {
+  text-align: right;
+}
+.experience_time_line_vertical
+  .time_line-item:nth-child(even)
+  .time_line-content
+  .languages {
+  float: right;
+}
+
+.experience_time_line_vertical
+  .time_line-item:nth-child(odd)
+  .time_line-content {
+  text-align: left;
+}
+
+.experience_time_line_vertical
+  .time_line-item:nth-child(even)
+  .time_line-content:before {
+  left: auto;
+  right: 0;
+}
+
+.experience_time_line_vertical .seofy_hexagon {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.experience_time_line_vertical .time_line-item:nth-child(even) .seofy_hexagon {
+  left: auto;
+  right: 0;
+}
+
+.experience_time_line_vertical
+  .time_line-item.item_active
+  .seofy_hexagon:nth-child(2) {
+  transform: scale(2);
+}
+
+.experience_time_line_vertical .time_line-item.item_show .time_line-content,
+.experience_time_line_vertical
+  .time_line-item.item_show:nth-child(even)
+  .time_line-content {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.experience_time_line_vertical .time_line-item.item_show .seofy_hexagon,
+.experience_time_line_vertical
+  .time_line-item.item_show:nth-child(even)
+  .seofy_hexagon {
+  opacity: 1;
+}
+
+.experience_time_line_vertical .time_line-item.item_show .time_line-date,
+.experience_time_line_vertical
+  .time_line-item.item_show:nth-child(even)
+  .time_line-date {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.experience_time_line_vertical .time_line-date_wrap {
+  position: relative;
+  z-index: 1;
+  margin-left: calc(50% - 10px);
+  margin-right: 50px;
+}
+
+.experience_time_line_vertical .seofy_hexagon {
+  height: 22px;
+  width: 20px;
+  transition: opacity 0.8s;
+}
+
+.experience_time_line_vertical .seofy_hexagon:first-child {
+  position: relative;
+  z-index: 0;
+}
+
+.experience_time_line_vertical .seofy_hexagon:nth-child(2) svg {
+  fill: #ffffff !important;
+}
+
+.experience_time_line_vertical .time_line-date {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 100%;
+  padding-right: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  white-space: nowrap;
+  transition: 0.3s;
+  margin-top: 0px;
+}
+
+.experience_time_line_vertical .time_line-content {
+  position: relative;
+  z-index: 1;
+  padding: 23px 30px;
+  max-width: 375px;
+  box-shadow: 7px 5px 30px 0 rgba(72, 73, 121, 0.15);
+  border-radius: 4px;
+  background: #242629;
+  overflow: hidden;
+  transition: 0.4s;
+  color: #94a1b2;
+}
+
+.experience_time_line_vertical .time_line-content:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 4px;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.experience_time_line_vertical .time_line-image {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+}
+
+.experience_time_line_vertical .time_line-title {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 8px auto 8px;
+}
+
+.experience_time_line_vertical .time_line-descr {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.experience_time_line_vertical .time_line-item:hover .time_line-content {
+  transform: translateX(5px);
+  box-shadow: #7f5af0 0px 10px 10px -10px;
+}
+
+.experience_time_line_vertical .time_line-item:hover .time_line-date {
+  transform: translateX(-5px);
+}
+
+.experience_time_line_vertical
+  .time_line-item:hover:nth-child(even)
+  .time_line-content {
+  transform: translateX(-5px);
+}
+
+.experience_time_line_vertical
+  .time_line-item:hover:nth-child(even)
+  .time_line-date {
+  transform: translateX(5px);
+}
+
+.experience_time_line_vertical
+  .time_line-item:hover.item_active
+  .seofy_hexagon:nth-child(2) {
+  animation: pulse_hexagon_active 2s infinite;
+}
+
+.experience_time_line_vertical
+  .time_line-item:hover
+  .seofy_hexagon:nth-child(2) {
+  animation: pulse_hexagon 2s infinite;
+}
+
+@keyframes pulse_hexagon {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse_hexagon_active {
+  0% {
+    transform: scale(2);
+  }
+  30% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+}
+
+#time_line_5cf90ca818f641 .time_line-date {
+  color: #feab32;
+}
+
+#time_line_5cf90ca818f641 .time_line-content:before {
+  background: #feab32;
+}
+
+@media all and (min-width: 1400px) {
+  .experience_time_line_vertical .time_line-content {
+    max-width: 500px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .experience_time_line_vertical:before {
+    left: 45px;
+  }
+  .experience_time_line_vertical .time_line-date_wrap {
+    margin-left: 35px !important;
+    margin-right: 35px !important;
+  }
+  .experience_time_line_vertical .time_line-date {
+    padding: 0 !important;
+    right: 100% !important;
+    left: auto !important;
+  }
+  .experience_time_line_vertical .time_line-content {
+    text-align: left !important;
+  }
+  .experience_time_line_vertical .time_line-content:before {
+    left: 0 !important;
+    right: auto !important;
+  }
+  .experience_time_line_vertical .time_line-item {
+    flex-direction: row !important;
+  }
+  .experience_time_line_vertical .time_line-date {
+    transform: rotate3d(0, 0, 1, -90deg) !important;
+  }
+  .experience_time_line_vertical.appear_anim .time_line-date {
+    transform: translateX(-20%) rotate3d(0, 0, 1, -90deg) !important;
+  }
+  .experience_time_line_vertical.appear_anim .time_line-content {
+    transform: translateX(20%) !important;
+  }
+  .experience_time_line_vertical.appear_anim
+    .time_line-item.item_show
+    .time_line-date {
+    transform: translate(15px, -9px) rotate3d(0, 0, 1, -90deg) !important;
+    width: 70px;
+    white-space: normal;
+  }
+  .experience_time_line_vertical.appear_anim
+    .time_line-item.item_show
+    .time_line-content {
+    -o-transform: translateX(0) !important;
+    transform: translateX(0) !important;
+  }
+  .experience_time_line_vertical .time_line-item:hover .time_line-content {
+    transform: translateX(5px) !important;
+  }
+  .experience_time_line_vertical
+    .time_line-item.item_show:hover
+    .time_line-content {
+    transform: translateX(5px) !important;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .experience_time_line_vertical .time_line-content {
+    max-width: 375px;
+  }
+  .experience_time_line_vertical:before {
+    margin-left: 10px;
+  }
+  .experience_time_line_vertical .time_line-content {
+    padding: 23px 11px;
+  }
+  .experience_time_line_vertical .time_line-descr {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .experience_time_line_vertical
+    .time_line-item:nth-child(even)
+    .time_line-content
+    .languages {
+    float: left;
+  }
+  .experience_time_line_vertical.appear_anim
+    .time_line-item.item_show
+    .time_line-date {
+    white-space: pre;
+  }
+  .experience_time_line_vertical .time_line-date {
+    font-size: 22px;
+    line-height: 0px;
+    margin-top: 24px;
+  }
+}
