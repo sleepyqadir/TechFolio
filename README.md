@@ -165,7 +165,7 @@ const contactSection = {......}
 <h1 id="deployment">Deployment :</h1>
 <p> Now All you need to do is to deploy your TechFolio and here are some options to deploy it :smirk: :smirk: </p>
 
-<p> <b>The step below is important! <br> If you skip it, your app will not deploy correctly. </br></p>
+<p> <b>The step below is important! <br> If you skip it, your app will not deploy correctly. </b></p>
 <p>Open your package.json and add a homepage field for your project: </p>
 
 ```ruby
@@ -203,4 +203,23 @@ project path: /path/to/project/build
 
 <p>comming sooon !</p>
 
+<h1 id="techUsed">Technologies Used :</h1>
+<p><b>:vhs: React </b><br>
+<b>:vhs: GraphQl </b><br>
+<b>:vhs: Apollo boost </b><br>
+<b>:vhs: React Helet </b><br>
+<b>:vhs: React Reveal </b><br>
+<b>:vhs: React Scroll </b>
+<b>:vhs: React Typist </b>
+<b>:vhs: React Visibility Sensor </b>
+<b>:vhs: React Flex-Box Grid </b>
+<b>:vhs: React Device Detect </b>
+<b>:vhs: React Easy Emoji </b><br>
+<br>
+<br>
+
+<br>
+<br>
+
+</p>
 
