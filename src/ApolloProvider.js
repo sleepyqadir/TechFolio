@@ -4,7 +4,9 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import { openSourceSection } from "./techfolio";
 import Loader from "./Components/common/Loader.js";
 const App = React.lazy(() => import("./App"));
-const key = openSourceSection.githubToken.replace(/^"(.*)"$/, "$1");
+const key = openSourceSection.githubToken
+  ? openSourceSection.githubToken.replace(/^"(.*)"$/, "$1")
+  : "";
 
 const client = new ApolloClient({
   uri: "https://api.github.com/graphql",
