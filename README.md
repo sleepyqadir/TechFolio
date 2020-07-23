@@ -13,7 +13,7 @@
   <a href="#features">Features</a> •
   <a href="#gettingStarted">Getting Started</a> •
   <a href="#installation">Installation</a> •
-  <a href="#updating">Configuration</a> •
+  <a href="#configuration">Configuration</a> •
   <a href="#deployment">Deployment</a> •
   <a href="#techUsed">Tech Used</a> •
   <a href="#author">Author</a> •
