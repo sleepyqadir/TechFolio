@@ -76,7 +76,7 @@ $ npm start
   <a href="#githubSetup">Github Setup</a> • <br>
   <a href="#configFile">Config File</a> •
 </p>
-<h3>Setting Up Github For Your Open Source Projects:</h3>
+<h3 id="githubSetup">Setting Up Github For Your Open Source Projects:</h3>
 <p>Generate a Github personal access token using these <a href="https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token">Instructions</a> Make sure you don't select any scope just generate a simple token </p>
 <p>1. Now you need to convert that github access token to base-64 string for security don't worry its just like eating a piece of cake. go to <a href="https://www.base64encode.org/">Base64 Decode and Encode</a> copy your access code in the box and select the destination character set to ascii and hit the encode green button Bingo :tada: (see the example below)</p> 
 <p align="center"><img src="https://user-images.githubusercontent.com/38910854/87902564-62736180-ca73-11ea-9b13-949228bb6409.png" width="600"/> </p>
@@ -104,7 +104,7 @@ $ npm start
 ```
 <p>Note: Open Source Projects section only show pinned items of your Github. If you haven't pinned your github repos, please follow this <a href="https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile">Instructions.</a></p>
 
-<h3>Changing Config file:</h3>
+<h3 id="configFile">Changing Config file:</h3>
 <p>You are just one step away from making your techfolio </p>
 
 <p> Shift to <b> > /src/techfolio.js </b> and modify the config as per your need. Make sure you read the notes before each section they will assist you out in make configuration simple for you. </p>
@@ -180,7 +180,7 @@ const contactSection = {......}
   <a href="#netlify">Netlify</a> •
 </p>
 
-<h3 id="githubPages">Deployment to Surge </h3>
+<h3 id="surge">Deployment to Surge </h3>
 <p> This is one of the easiest ways to deploy your techfolio and i recommend you to read the official documentation of deploying react app on <a href="https://create-react-app.dev/docs/deployment/#surge">surge</a> but Don't worry i'll guide you step by step how you gonna do it </p>
 
 <p><b>1</b> : Build your techflio by running <b>npm run build</b> in your project directory </p>
@@ -194,5 +194,13 @@ project path: /path/to/project/build
 <p><b>5</b> : Last it will ask you about domain name enter it e.g <b>yourname.surge.sh <b> </p>
 
 **Bingo :tada:**
+
+<h3 id="githubpages">Deployment to Github Pages </h3>
+
+<p>comming sooon !</p>
+
+<h3 id="netlify">Deployment to Netlify </h3>
+
+<p>comming sooon !</p>
 
 
