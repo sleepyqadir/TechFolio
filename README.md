@@ -193,18 +193,18 @@ project path: /path/to/project/build
 ```
 <p><b>5</b> : Last it will ask you about domain name enter it e.g <b>yourname.surge.sh </b> </p>
 
-**Bingo :tada:**
+<p align="center"> <b>>Bingo :tada:</b</p>
 
 <h3 id="githubpages">Deployment to Github Pages </h3>
 
-<p>comming sooon !</p>
+<p>adding sooon !</p>
 
 <h3 id="netlify">Deployment to Netlify </h3>
 
-<p>comming sooon !</p>
+<p>adding sooon !</p>
 
 <h1 id="techUsed">Technologies Used :</h1>
-<h4><a href="https://reactjs.org/docs/getting-started.html">:vhs: React </a><br>
+<h3><a href="https://reactjs.org/docs/getting-started.html">:vhs: React </a><br>
 <a href="https://graphql.org/">:vhs: GraphQl </a><br>
 <a href="https://www.apollographql.com/docs/react/get-started/">:vhs: Apollo boost </a><br>
 <a href="https://www.npmjs.com/package/react-helmet">:vhs: React Helet </a><br>
@@ -215,5 +215,15 @@ project path: /path/to/project/build
 <a href="https://roylee0704.github.io/react-flexbox-grid/">:vhs: React Flex-Box Grid </a><br>
 <a href="https://www.npmjs.com/package/react-device-detect">:vhs: React Device Detect </a><br>
 <a href="https://www.npmjs.com/package/react-easy-emoji">:vhs: React Easy Emoji </a><br>
-</h4>
+</h3>
 
+<h1 id="author">Author:</h1>
+
+<h1 id="contributing">Contributing:</h1>
+
+<p>Feel free to open an issue on any kind of bug or glitches you find in the project and to make it better don't hesitate to contribute.</p>
+<p>Yes you can contribute to project by adding more features, I'm waiting for your pull request.</p>
+
+<h1 id="license">License:</h1>
+
+<p>adding sooon !</p>
