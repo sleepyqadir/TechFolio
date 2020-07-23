@@ -14,10 +14,10 @@
   <a href="#gettingStarted">Getting Started</a> •
   <a href="#installation">Installation</a> •
   <a href="#updating">Configuration</a> •
-  <a href="#binds">Deployment</a> •
-  <a href="#contributing">Contributing</a> •
+  <a href="#deployment">Deployment</a> •
+  <a href="#techUsed">Tech Used</a> •
   <a href="#author">Author</a> •
-  <a href="#support">Support</a> •
+  <a href="#contributing">Contributing</a> •
   <a href="#license">License</a>
 </p>
 
@@ -84,12 +84,11 @@ $ npm start
 
 ```ruby
 
-- DeveloperFolio
+- TechFolio
   - node_modules
   - public
   - src
   - .env         <-- create it here
-  - env.example  <-- this is the base file
   - .gitignore
   - package-lock.json
   - package.json
@@ -163,4 +162,13 @@ const experienceSection = { .... }
 const contactSection = {......}
 
 ```
+<h1 id="deployment">Deployment :</h1>
+<p> Now All you need to do is to deploy your TechFolio and here are some options to deploy it :smirk: :smirk: </p>
+<p>
+  <a href="#githubPages">Github Pages</a> • <br>
+  <a href="#netlify">Netlify</a> •
+</p>
 
+<h3 id="githubPages">Deployment to Github Pages </h3>
+
+<h4> If you are reading this means we are testing some things out please came back soon! </h4>
