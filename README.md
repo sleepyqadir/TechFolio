@@ -99,7 +99,7 @@ $ npm start
 ```ruby
  // .env
 
-  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE" //make sure you have set you base64 converted token.
+  REACT_APP_GITHUB_ACCESS_TOKEN = "YOUR GITHUB TOKEN HERE" //make sure you have set you base64 converted token.
   
 ```
 <p>Note: Open Source Projects section only show pinned items of your Github. If you haven't pinned your github repos, please follow this <a href="https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile">Instructions.</a></p>
@@ -191,7 +191,7 @@ const contactSection = {......}
 ```ruby
 project path: /path/to/project/build
 ```
-<p><b>5</b> : Last it will ask you about domain name enter it e.g <b>yourname.surge.sh <b> </p>
+<p><b>5</b> : Last it will ask you about domain name enter it e.g <b>yourname.surge.sh </b> </p>
 
 **Bingo :tada:**
 
@@ -204,22 +204,16 @@ project path: /path/to/project/build
 <p>comming sooon !</p>
 
 <h1 id="techUsed">Technologies Used :</h1>
-<p><b>:vhs: React </b><br>
-<b>:vhs: GraphQl </b><br>
-<b>:vhs: Apollo boost </b><br>
-<b>:vhs: React Helet </b><br>
-<b>:vhs: React Reveal </b><br>
-<b>:vhs: React Scroll </b>
-<b>:vhs: React Typist </b>
-<b>:vhs: React Visibility Sensor </b>
-<b>:vhs: React Flex-Box Grid </b>
-<b>:vhs: React Device Detect </b>
-<b>:vhs: React Easy Emoji </b><br>
-<br>
-<br>
-
-<br>
-<br>
-
-</p>
+<h4><a href="https://reactjs.org/docs/getting-started.html">:vhs: React </a><br>
+<a href="https://graphql.org/">:vhs: GraphQl </a><br>
+<a href="https://www.apollographql.com/docs/react/get-started/">:vhs: Apollo boost </a><br>
+<a href="https://www.npmjs.com/package/react-helmet">:vhs: React Helet </a><br>
+<a href="https://www.react-reveal.com/">:vhs: React Reveal </a><br>
+<a href="https://www.npmjs.com/package/react-scroll">:vhs: React Scroll </a><br>
+<a href="https://www.npmjs.com/package/react-typist">:vhs: React Typist </a><br>
+<a href="https://www.npmjs.com/package/react-visibility-sensor">:vhs: React Visibility Sensor </a><br>
+<a href="https://roylee0704.github.io/react-flexbox-grid/">:vhs: React Flex-Box Grid </a><br>
+<a href="https://www.npmjs.com/package/react-device-detect">:vhs: React Device Detect </a><br>
+<a href="https://www.npmjs.com/package/react-easy-emoji">:vhs: React Easy Emoji </a><br>
+</h4>
 
