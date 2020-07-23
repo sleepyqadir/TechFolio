@@ -164,11 +164,35 @@ const contactSection = {......}
 ```
 <h1 id="deployment">Deployment :</h1>
 <p> Now All you need to do is to deploy your TechFolio and here are some options to deploy it :smirk: :smirk: </p>
+
+<p> <b>The step below is important! <br> If you skip it, your app will not deploy correctly. </br></p>
+<p>Open your package.json and add a homepage field for your project: </p>
+
+```ruby
+
+"homepage": "https://myusername.github.io", // edit my "https://aqadir64.github.io" with your username
+
+````
+
 <p>
   <a href="surge">Surge </a>  • <br>
   <a href="#githubPages">Github Pages</a> • <br>
   <a href="#netlify">Netlify</a> •
 </p>
 
-<h3 id="githubPages">Deployment to Github Pages </h3>
+<h3 id="githubPages">Deployment to Surge </h3>
+<p> This is one of the easiest ways to deploy your techfolio and i recommend you to read the official documentation of deploying react app on <a href="https://create-react-app.dev/docs/deployment/#surge">surge</a> but Don't worry i'll guide you step by step how you gonna do it </p>
+
+<p><b>1</b> : Build your techflio by running <b>npm run build</b> in your project directory </p>
+<p><b>2</b> : Install the Surge CLI if you haven’t already by running <b>npm install -g surge. </b> </p>
+<p><b>3</b> : Run the <b>surge</b> command and log in you or create a new account.</p>
+<p><b>4</b> : When asked about the project path, make sure to specify the build folder, for example: </p>
+
+```ruby
+project path: /path/to/project/build
+```
+<p><b>5</b> : Last it will ask you about domain name enter it e.g <b>yourname.surge.sh <b> </p>
+
+**Bingo :tada:**
+
 
