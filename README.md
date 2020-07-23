@@ -78,7 +78,7 @@ $ npm start
 </p>
 <h3>Setting Up Github For Your Open Source Projects:</h3>
 <p>Generate a Github personal access token using these <a href="https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token">Instructions</a> Make sure you don't select any scope just generate a simple token </p>
-<p>1. Now you need to convert that github accesshttps://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile token to base-64 string for security don't worry its just like eating a piece of cake. go to <a href="https://www.base64encode.org/">Base64 Decode and Encode</a> copy your access code in the box and select the destination character set to ascii and hit the encode green button Bingo :tada: (see the example below)</p> 
+<p>1. Now you need to convert that github access token to base-64 string for security don't worry its just like eating a piece of cake. go to <a href="https://www.base64encode.org/">Base64 Decode and Encode</a> copy your access code in the box and select the destination character set to ascii and hit the encode green button Bingo :tada: (see the example below)</p> 
 <p align="center"><img src="https://user-images.githubusercontent.com/38910854/87902564-62736180-ca73-11ea-9b13-949228bb6409.png" width="600"/> </p>
 <p>2. Now create a .env file in the root directory of the project. env file lets you customize your working environment variables. </p>
 
