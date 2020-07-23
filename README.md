@@ -27,7 +27,7 @@
 <p>TechFolio is an open-source portfolio for the developer and other geeks to make their artistic and infinite scroll portfolio in just 5 mins and some basic steps from configuration to deployment.</p>
 <p>Feel free to open an issue on any kind of bug or glitches you find in the project and to make it better don't hesitate to contribute.</p>
 <p>Yes you can contribute to project by adding more features, I'm waiting for your pull request.</p>
-<h2 align="center"> <a href="https://abdulqadir.netlify.app/"> Preview </a></h2>
+<h2 align="center"> <a href="http://abdulqadir.surge.sh/"> Preview </a></h2>
 
 <h1 id="features">Features :</h1>
 <p>:large_blue_diamond: Summary and Avatar<br>
@@ -57,7 +57,7 @@ git@2.17.1 or higher
 
 ```ruby
 # Clone this repository
-$ git clone https://github.com/
+$ git clone https://github.com/AQadir64/TechFolio.git
 
 # Go into the repository
 $ cd techfolio
@@ -165,10 +165,10 @@ const contactSection = {......}
 <h1 id="deployment">Deployment :</h1>
 <p> Now All you need to do is to deploy your TechFolio and here are some options to deploy it :smirk: :smirk: </p>
 <p>
+  <a href="surge">Surge </a>  • <br>
   <a href="#githubPages">Github Pages</a> • <br>
   <a href="#netlify">Netlify</a> •
 </p>
 
 <h3 id="githubPages">Deployment to Github Pages </h3>
 
-<h4> If you are reading this means we are testing some things out please came back soon! </h4>
