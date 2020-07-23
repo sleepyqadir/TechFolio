@@ -193,7 +193,7 @@ project path: /path/to/project/build
 ```
 <p><b>5</b> : Last it will ask you about domain name enter it e.g <b>yourname.surge.sh </b> </p>
 
-<p align="center"><b>Bingo :tada:</b</p>
+<p align="center"><b>Bingo :tada:</b></p>
 
 <h3 id="githubpages">Deployment to Github Pages </h3>
 
@@ -218,6 +218,11 @@ project path: /path/to/project/build
 </h3>
 
 <h1 id="author">Author:</h1>
+
+| <img src="https://user-images.githubusercontent.com/38910854/88262175-1fb6c100-cce1-11ea-92ee-5904aee9657f.jpeg" width="150"/>
+| :---: | 
+| Abdul Qadir | 
+| <a href="http://abdulqadir.surge.sh/"> TechFolio </a> | 
 
 <h1 id="contributing">Contributing:</h1>
 
