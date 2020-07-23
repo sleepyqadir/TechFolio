@@ -193,7 +193,7 @@ project path: /path/to/project/build
 ```
 <p><b>5</b> : Last it will ask you about domain name enter it e.g <b>yourname.surge.sh </b> </p>
 
-<p align="center"> <b>>Bingo :tada:</b</p>
+<p align="center"><b>Bingo :tada:</b</p>
 
 <h3 id="githubpages">Deployment to Github Pages </h3>
 
