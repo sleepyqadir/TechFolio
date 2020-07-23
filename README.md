@@ -24,6 +24,7 @@
 ---
 
 <h1 id="overview">Over View :</h1>
+<img src="https://user-images.githubusercontent.com/38910854/88264039-84274f80-cce4-11ea-94a5-4e59c8b24996.gif"/>  
 <p>TechFolio is an open-source portfolio for the developer and other geeks to make their artistic and infinite scroll portfolio in just 5 mins and some basic steps from configuration to deployment. :smiley:</p>
 <p>Feel free to open an issue on any kind of bug or glitches you find in the project and to make it better don't hesitate to contribute. :relaxed:</p>
 <p>Yes you can contribute to project by adding more features, I'm waiting for your pull request.:relaxed: </p>
