@@ -6,7 +6,7 @@ function Heading({ heading}) {
     <Row center="xs">
       <Col xs={8}>
         <div className="banner-content">
-          <h1 style={{textShadow: "2px 2px #7f5af0"}}>
+          <h1 style={{textShadow: "2px 2px #3e8a7d"}}>
             {" "}
             <Fade bottom big cascade>
               {heading}

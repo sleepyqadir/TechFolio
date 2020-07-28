@@ -1,11 +1,9 @@
 
 /*-----------------------------------------------------------------------------------
-
     Template Name: TechFolio
     Description: A openSource portfolio site
     Author: Abdul Qadir
     Author URI: 
-
 ----------------------------------------------------------------------------------- */
 /* 1. General CSS
    1.1. Button CSS
@@ -104,7 +102,7 @@ section {
   color: transparent;
 }
 .logo--shadow {
-  text-shadow: 6px 6px #7f5af0;
+  text-shadow: 6px 6px #6e9c95;
 }
 
 /*=====================
@@ -147,7 +145,7 @@ section {
   margin-right: 10px;
 }
 .banner-content .btn-1:hover {
-  box-shadow: 0 3px 10px #7f5af0 !important;
+  box-shadow: 0 3px 10px #3e8a7d !important;
 }
 
 .wrap-image,
@@ -172,12 +170,12 @@ section {
   height: 100%;
   position: absolute;
   z-index: -1;
-  border: 2px solid #7f5af0;
+  border: 2px solid #3e8a7d;
   transition: all 0.25s ease-out;
 }
 .wrap-image::before,
 .wrap-default::before {
-  background-color: #7f5af0;
+  background-color: #3e8a7d;
   top: -15px;
   left: -30px;
 }
@@ -213,7 +211,7 @@ section {
 }
 .overlay:before {
   content: "";
-  background: #7f5af0;
+  background: #3e8a7d;
   left: -55%;
   top: 0;
   width: 50%;
@@ -223,7 +221,7 @@ section {
 }
 .overlay:after {
   content: "";
-  background: #7f5af0;
+  background: #3e8a7d;
   right: -55%;
   top: 0;
   width: 50%;
@@ -362,7 +360,7 @@ section {
   color: transparent;
 }
 .nav__title--shadow {
-  text-shadow: 6px 6px #7f5af0;
+  text-shadow: 6px 6px #3e8a7d;
 }
 
 .nav li {
@@ -723,7 +721,7 @@ footer .content .techfolio_copyright {
   .wrap-default::after {
     width: 0%;
     height: 0%;
-    border: 0px solid #7f5af0;
+    border: 0px solid #3e8a7d;
   }
   .wrap-default::before {
     background-color: transparent;
@@ -816,11 +814,11 @@ footer .content .techfolio_copyright {
     height: 100%;
     position: absolute;
     z-index: -1;
-    border: 2px solid #7f5af0;
+    border: 2px solid #3e8a7d;
     transition: all 0.25s ease-out;
   }
   .wrap-image::before {
-    background-color: #7f5af0;
+    background-color:#3e8a7d;
     top: -15px;
     left: -30px;
   }
@@ -856,7 +854,7 @@ footer .content .techfolio_copyright {
   }
   /*-----------------------------------  */
   .banner-btns .btn-3:hover {
-    box-shadow: 0 2px 10px #7f5af0 !important;
+    box-shadow: 0 2px 10px #3e8a7d !important;
   }
   .banner-content {
     text-align: center;

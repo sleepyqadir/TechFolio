@@ -1,9 +1,6 @@
-
-
 /*=====================
   
   Skills Section Css
-
 ==========================*/
 
 
@@ -25,7 +22,7 @@
 }
 
 .skill_img:hover {
-  color: #7f5af0;
+  color: #3e8a7d;
 }
 
 @media all and (max-width: 450px) {
@@ -44,7 +41,7 @@
     color: #72757e;
   }
   .skill_img:hover {
-    color: #7f5af0;
+    color: #3e8a7d;
   }
 }
 

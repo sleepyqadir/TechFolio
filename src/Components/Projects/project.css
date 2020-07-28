@@ -1,9 +1,6 @@
-
-
 /*=====================
   
   Project Section Css
-
 ==========================*/
 
 .languages {
@@ -43,7 +40,7 @@
   margin-left: auto;
 }
 .content-wrapper:hover {
-  box-shadow: #7f5af0 0px 10px 10px -10px;
+  box-shadow: #3e8a7d 0px 10px 10px -10px;
 }
 
 .project-card {
@@ -58,7 +55,7 @@
   padding: 0 0 20px 20px;
 }
 .project-card:hover {
-  box-shadow: #7f5af0 0px 10px 10px -10px;
+  box-shadow: #3e8a7d 0px 10px 10px -10px;
 }
 
 .project-card-img {
@@ -71,8 +68,8 @@
 }
 .project-card-img:hover {
   transform: scale(1.04);
-  box-shadow: 0px 1px 7px 2px #7f5af0;
-  border-bottom: 1px solid #7f5af0;
+  box-shadow: 0px 1px 7px 2px #3e8a7d;
+  border-bottom: 1px solid #3e8a7d;
 }
 
 .card-content {
@@ -112,9 +109,9 @@
   color: #fffffe;
   font-size: 14px;
   font-weight: 700;
-  background-color: #7f5af0;
+  background-color: #3e8a7d;
   padding: 5px 10px;
-  border: 1px solid #7f5af0;
+  border: 1px solid #3e8a7d;
   border-radius: 2px;
   margin-left: 0.6rem;
 }

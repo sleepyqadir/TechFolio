@@ -18,9 +18,9 @@ import emoji from "react-easy-emoji";
 ==========================*/
 
 const app = {
-  title: "AbdulQadir Portfolio",
+  title: "Melike Kilic Portfolio",
   // Note : consider leaving null if you dont have any head icon
-  icon: "ayin_qoph.png",
+  // icon: "mel.jpg",
   description: "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
 };
 
@@ -31,10 +31,10 @@ const app = {
 
 const socialNetworks = {
   //Note : if you dont need or have any social network just add null value
-  github: "https://github.com/AQadir64",
-  linkden: null,
-  facebook: "https://www.facebook.com/profile.php?id=100006896625330",
-  instagram: "https://www.instagram.com/_ayin_qoph/",
+  github: "https://www.github.com/melkilic",
+  linkden: "https://www.linkedin.com/in/melike-kilic/",
+  facebook: null,
+  instagram: null,
   twitter: null,
 };
 
@@ -44,17 +44,17 @@ const socialNetworks = {
 ==========================*/
 
 const bannerSection = {
-  username: "Abdul Qadir",
-  bannerHeading: "Marhabaan.",
+  username: "Melike Kilic",
+  bannerHeading: "Hi, there!",
   bannerTagLine: emoji(
-    "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer 😀 Who loves to play with different stacks and love to give breath to Ui/Ux designs."
+    "I am Mel, a recent graduate from Flatiron School and a brand-new junior developer based in Houston, TX.😀"
   ),
   //Note:Simply add you avatar image in src/assets/imgs folder 
   //and add the name along with extention e.g xyz.png , abc.svg
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
-  bannerAvatar: "avatar.jpeg",
+  bannerAvatar: "mel.jpg",
   resumeLink:
-    "https://drive.google.com/file/d/1C9wylYtAU9NbZaBwmQ6uGmNWmWS8_I6F/view?usp=sharing",
+    "https://docs.google.com/document/d/1-Y2Wlbnle-u4WTFK_7Eh7QIU1UhGS_1Fi4SROZ3YLpU/edit?usp=sharing",
 };
 
 /*=====================
@@ -65,11 +65,11 @@ const bannerSection = {
 ==========================*/
 
 const aboutSection = {
-  admin: "ayin_qoph@ayin_qoph",
+  admin: "melkilic@melkilic",
   firstCommand: " sudo run about.exe",
   secondCommand: " executing about.exe",
   about:
-    "Computer Science Student and Full Stack Developer. Passionate about solving problems that will benefit others in the area of IT or in real life. from haven't think about computer science and then picking it as a carrier back in 2017 I have discovered a lot in this system. But outside it, I'm just an ordinary karachitte man who loves to do mobile photography and write thoughts.",
+    "Linguaphile turned into programmer :)",
 };
 
 /*=====================
@@ -97,35 +97,14 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      fontAwesomeClassname: "fab fa-sass",
-    },
-    {
       fontAwesomeClassname: "fab fa-js",
     },
     {
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      fontAwesomeClassname: "fab fa-node",
-    },
-    {
       fontAwesomeClassname: "fab fa-npm",
-    },
-    {
-      fontAwesomeClassname: "fas fa-fire",
-    },
-    {
-      fontAwesomeClassname: "fab fa-wordpress",
-    },
-    {
-      fontAwesomeClassname: "fab fa-python",
-    },
-    {
-      fontAwesomeClassname: "fab fa-linux",
-    },
-    {
-      fontAwesomeClassname: "fab fa-docker",
-    },
+    }
   ],
 };
 
@@ -138,7 +117,7 @@ const openSourceSection = {
   //Note :  don't edit the githubToken
   githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
-  githubUserName: "AQadir64",
+  githubUserName: "melkilic",
   //Note :  no of open source projects you want to show.
   numberOfRepos: 6,
 };
