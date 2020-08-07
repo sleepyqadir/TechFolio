@@ -47,7 +47,7 @@ const bannerSection = {
   username: "Melike Kilic",
   bannerHeading: "Hi, there!",
   bannerTagLine: emoji(
-    "I am Mel, a recent graduate from Flatiron School and a brand-new junior developer based in Houston, TX.😀"
+    "I am Melike, a recent graduate from Flatiron School and a brand-new junior developer based in Houston, TX.😀"
   ),
   //Note:Simply add you avatar image in src/assets/imgs folder 
   //and add the name along with extention e.g xyz.png , abc.svg
@@ -69,7 +69,7 @@ const aboutSection = {
   firstCommand: " sudo run about.exe",
   secondCommand: " executing about.exe",
   about:
-    "Linguaphile turned into programmer :)",
+  "How did everything start? Being a language-lover, I knew that languages were so powerful that they were building bridges between people of various cultures. Though, I had no idea about programming languages until very recently when I decided to develop my career in this field. After exposing myself to programming languages for a while, I did realize that programming languages were nothing less than human languages in this sense as they make communication between people and computers possible. That was when I made my mind up to make a career in tech. Linguaphile turned programmer :) "
 };
 
 /*=====================
@@ -80,9 +80,9 @@ const aboutSection = {
 const skillsSection = {
   // Recommended : don't add more than 3 skill taglines.
   skillsTagLines: [
-    "Excitable towards giving breath to different mockup PSDs and web designs using Html / Css and Scss.",
-    "Love to Build Scalable web and native application using React with the several stacks, packages, and services.",
-    "Also Passionate towards other stuff like WordPress development, python scripting, and Dev-Ops.",
+    "Full of excitement and energy when I am building a project.",
+    "Working with APIs in my React applications with the several stacks, packages, and services is my thing.",
+    "Also passionate about collaborating and doing teamwork.",
   ],
 
   // Recommended : don't add more than 12 skills.
@@ -102,8 +102,14 @@ const skillsSection = {
     {
       fontAwesomeClassname: "fab fa-react",
     },
+    // {
+    //   fontAwesomeClassname: "fab fa-npm",
+    // },
     {
-      fontAwesomeClassname: "fab fa-npm",
+      fontAwesomeClassname: "fab fa-github-square"
+    },
+    {
+      fontAwesomeClassname: "fab fa-bootstrap"
     }
   ],
 };
@@ -130,38 +136,31 @@ const openSourceSection = {
 const projectsSection = {
   projects: [
     {
-      projectName: "BubuSoft",
+      projectName: "Covid TrackR",
       projectBio:
-        "DREAM BIG, ACT NOW ––– is the new motto. BabuSoft a bird’s eye view of the tech industry for all the novel ideas that you can turn into reality",
-
-      projectUrl: "https://babusoft.netlify.app/",
-      stackList: ["React", "Ant Design", "Sass", "Device Detect"],
+        "A real-time tracking app where you can display the overall COVID-19 information in the U.S, detailed information about the states, and view the hospital information based on the location you type.",
+      projectUrl: "https://github.com/melkilic/Final-Project",
+      projectUrl2: "https://www.youtube.com/watch?v=XieW3SVlqjo&t=95s",
+      stackList: ["React","Redux","Chart","Ruby on Rails", "Mapbox","Google Maps"],
     },
     {
-      projectName: "E-Trans Pakistan",
+      projectName: "Shoptastic",
       projectBio:
-        "E-Trans Pakistan emerge as first in its class within the city of Karachi in Sindh, offering chauffeur-driven services.",
+        "An e-commerce app for purchasing products online. View our products, search them by categories, display the store locations, save your items to the cart, and let shopping be more fun on Shoptastic!",
 
-      projectUrl: "https://etranspakistan.com/",
-      stackList: ["Wordpress", "plugins", "css"],
+      projectUrl: "https://www.youtube.com/watch?v=cYX3iiiI_n8&t=1s",
+      projectUrl2: "https://github.com/isaac-3/Shop-Mod4-React-Project",
+      stackList: ["React.js", "Target API", "Ruby on Rails", "React Google Maps", "React Bootstrap"],
     },
     {
-      projectName: "Covid-19 Tracker",
+      projectName: "CineMass",
       projectBio:
-        "Covid-19 is an real-time web application which give real-time update about the corono-virus cases in the world build on ReactJs",
+        "An alternative website to IMDB where you can create your profile, browse movies, find movies based on their genre, and add movies to your watchlist!",
 
-      projectUrl: "https://orthocovid-19.netlify.app/",
-      stackList: ["React", "Ant Design", "Sass", "AmCharts", "GeoData"],
-    },
-
-    {
-      projectName: "Cheating Detector",
-      projectBio:
-        "Cheating Detector Desktop app checks the similarity b/w different PDFs,documents ,images and text",
-
-      projectUrl: "/",
-      stackList: ["Electron", "Python", "Open Cv", "OCR", "Flask"],
-    },
+      projectUrl: "https://www.youtube.com/watch?v=HkpFnpbXXlE",
+      projectUrl2: "https://github.com/faizah1992/Project-CineMass",
+      stackList: ["Ruby on Rails", "Vanilla JavaScript", "Bootstrap"],
+    }
   ],
 };
 
@@ -173,27 +172,18 @@ const projectsSection = {
 const experienceSection = {
   experiences: [
     {
-      experienceTitle: "React Boot Camper",
+      experienceTitle: "In job search",
       experienceDesc:
-        "Successfully learned to React from 0%. Developed and Implement different React projects in the group. Improved communication skills while interacting with people of a different caliber.",
-      // Recommended : don't add full date.
-      experienceDuration: "12/18-05/19",
-      // Recommended : don't add more than 3 tags.
-      experienceTags: ["Panacloud", "5 months", "karachi"],
+        "I have graduated from Flatiron in June, and am currently looking for a position where I can contribute to the company I work for, and sharpen my coding skills every day. ",
+      experienceDuration: "Current",
+      experienceTags: ["Flatiron School", "Junior Web Developer"],
     },
     {
-      experienceTitle: "Wordpress Intern",
-      experienceDesc:
-        "Improved remotely managing skills by giving 20+ hours per week. Expanded knowledge of creating static and responsive sites using WordPress.",
-      experienceDuration: "10/19-11/19",
-      experienceTags: ["Interns Pk", "1.5 month", "Remote"],
-    },
-    {
-      experienceTitle: "Competition Manager",
+      experienceTitle: "Teacher Assistant @ Raindrop Foundation",
       experienceDesc:
         "Manages the competition team and Ensures everyone is satisfied. Design and develop innovative competition for ITEC and reexamines it.",
-      experienceDuration: "Current",
-      experienceTags: ["ACM", "12/2018-5/2019", "NEDUET"],
+      experienceDuration: "06/2019-03/2020",
+      experienceTags: ["Raindrop Foundation", "06/2019-03/2020","Teacher Assistant"],
     },
   ],
 };

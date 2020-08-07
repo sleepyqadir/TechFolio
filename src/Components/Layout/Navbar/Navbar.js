@@ -66,7 +66,7 @@ function Navbar() {
                   toggleOpen(!open);
                 }}
               >
-                <p>Open Source</p>
+                <p>Education</p>
               </ScrollTo>
             </li>
             <li>

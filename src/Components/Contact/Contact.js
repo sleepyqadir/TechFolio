@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import "./contact.css";
 import VisibilitySensor from "react-visibility-sensor";
-import contactIllustration from "../../assets/imgs/contact.svg";
+import contactIllustration from "../../assets/imgs/con.jpg";
 import { contactSection, socialNetworks } from "../../techfolio";
 import { ScrollContext } from "../../Context/scroll";
 import { isMobile } from "react-device-detect";

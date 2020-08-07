@@ -34,7 +34,7 @@ function App() {
             <Contact />
           </Col>
         </Row>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </ScrollProvider>
   );
