@@ -80,9 +80,9 @@ const aboutSection = {
 const skillsSection = {
   // Recommended : don't add more than 3 skill taglines.
   skillsTagLines: [
-    "Full of excitement and energy when I am building a project.",
-    "Working with APIs in my React applications with the several stacks, packages, and services is my thing.",
-    "Also passionate about collaborating and doing teamwork.",
+    "I am full of excitement and energy when I am building a project.",
+    "Working with APIs in my React applications with several stacks, packages, and services is my thing.",
+    "I am also passionate about collaborating and doing teamwork.",
   ],
 
   // Recommended : don't add more than 12 skills.
@@ -195,9 +195,9 @@ const experienceSection = {
 
 const contactSection = {
   contactTagline:
-    "Hey Folks, Love to see you sliding here, Y'all can reach me.",
+    "You can reach me here.",
   // Note : add your all contacts in the contactList seperating with *,* .
-  contactList: ["03461826315", "a.qadir67@outlook.com"],
+  contactList: ["(832) 324-2374", "mk.melikekilic@gmail.com"],
 };
 
 

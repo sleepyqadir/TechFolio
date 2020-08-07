@@ -4,7 +4,8 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import "./skills.css";
 import VisibilitySensor from "react-visibility-sensor";
-import skillsIllustration from "../../assets/imgs/me.jpg";
+import skillsIllustration from "../../assets/imgs/sk.jpg";
+import coding from "../../assets/imgs/code-icon.svg"
 import { skillsSection } from "../../techfolio";
 import { ScrollContext } from "../../Context/scroll";
 import { isMobile } from "react-device-detect";
@@ -26,7 +27,7 @@ function Skills() {
           draggable="false"
           className="emoji"
           alt="💠"
-          src="https://twemoji.maxcdn.com/v/13.0.0/72x72/26a1.png"
+          src={coding}
         ></img>
         {tagline}
       </h3>

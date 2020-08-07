@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import "./contact.css";
 import VisibilitySensor from "react-visibility-sensor";
-import contactIllustration from "../../assets/imgs/con.jpg";
+import contactIllustration from "../../assets/imgs/coding.svg";
 import { contactSection, socialNetworks } from "../../techfolio";
 import { ScrollContext } from "../../Context/scroll";
 import { isMobile } from "react-device-detect";
@@ -16,12 +16,12 @@ function Contact() {
     return (
       <Col xs={12} key={i}>
         <h2 className="contact_section_contact">
-          <img
+          {/* <img
             draggable="false"
             className="emoji"
             alt="💠"
             src="https://twemoji.maxcdn.com/v/13.0.0/72x72/1f4d2.png"
-          />
+          /> */}
           {contact}
         </h2>
       </Col>
