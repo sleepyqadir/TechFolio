@@ -12,81 +12,57 @@ import Message from "./Message";
 import Heading from "../common/Heading";
 import { isMobile } from "react-device-detect";
 function Github() {
-  const { scrollChange } = useContext(ScrollContext);
-  const { githubUserName, numberOfRepos } = openSourceSection;
-  const initialValue = numberOfRepos > 4 ? 4 : numberOfRepos;
-  const [repos, setRepos] = useState(initialValue);
-  const { loading, error, data } = useQuery(FETCH_REPOS, {
-    variables: { login: githubUserName, first: repos },
+  const education = openSourceSection.education.map((education, i) => {
+    return <GitHubCard education={education} key={i} />;
   });
   return (
     <Fragment>
-      {isMobile && <Heading heading={"Open Source"} style={{ marginBottom: "70px" }} />}
+      {isMobile && <Heading heading={"Open Source"} />}
       <section
         className="section section4"
         id="githubSection"
         name="openSources"
       >
-        <VisibilitySensor
-          onChange={(isVisible) => {
-            if (isVisible) {
-              scrollChange("github");
-            }
-          }}
-        >
-          {loading ? (
-            <Message
-              message={{
-                type: "success",
-                title: "Loading...",
-              }}
-            />
-          ) : error ? (
-            <Message
-              message={{
-                type: "error",
-                title: "Error",
-                desc:
-                  "Whoops! Sorry for the inconvenience, something went wrong.",
-              }}
-            />
-          ) : (
-            <div className="site-container">
-              <Fade bottom>
-                <Row around="xs" className="githubRepoCards">
-                  {data.user.pinnedItems.edges.map((repo, i) => {
-                    return <GitHubCard repo={repo} key={repo.node.id} />;
-                  })}
-                </Row>
-                <Row around="xs">
-                  <div className="banner-content">
-                    <div className="banner-btns">
-                      {numberOfRepos > repos ? (
-                        <button
-                          className="btn btn-1"
-                          onClick={() => {
-                            setRepos(numberOfRepos);
-                          }}
-                        >
-                          View more
-                        </button>
-                      ) : (
-                        <a
-                          href={socialNetworks.github}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn btn-1"
-                        >
-                          View more
-                        </a>
-                      )}{" "}
+         <div>
+          <Fade bottom>
+            <div className="container experience-row-animation">
+              <div>
+                <div
+                  data-vc-full-width="true"
+                  data-vc-full-width-init="true"
+                  className="vc_row wpb_row vc_row-fluid vc_custom_1542873226451 vc_row-has-fill experience-row-animation"
+                  style={{
+                    left: "-11.2px",
+                    boxSizing: "border-box",
+                    paddingLeft: "11.2px",
+                    paddingRight: "10.8px",
+                    position: "relative",
+                  }}
+                >
+                  <div className="experience_column vc_column_container vc_col-sm-12">
+                    <div className="vc_column-inner ">
+                      <div className="wpb_wrapper">
+                        <div className="experience_spacing">
+                          <div
+                            className="spacing_size spacing_size-initial"
+                            style={{ height: "30px" }}
+                          ></div>
+                        </div>
+                        <div className="experience_time_line_vertical appear_anim">
+                          {education}
+                        </div>
+                        <div
+                          id="seofy_spacer_5cf90ca8190c4"
+                          className="experience_spacing responsive_active"
+                        ></div>
+                      </div>
                     </div>
                   </div>
-                </Row>
-              </Fade>
+                </div>
+              </div>
             </div>
-          )}
-        </VisibilitySensor>
+          </Fade>
+        </div>
       </section>
     </Fragment>
   );

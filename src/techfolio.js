@@ -11,7 +11,6 @@ import emoji from "react-easy-emoji";
 /* 9. Contact Section */
 
 /* wrap your text in emoji("") if you want to show emoji in your text
-
 /*=====================
     1. Main App
     Desc: set what's in the document's head section
@@ -33,9 +32,9 @@ const socialNetworks = {
   //Note : if you dont need or have any social network just add null value
   github: "https://www.github.com/melkilic",
   linkden: "https://www.linkedin.com/in/melike-kilic/",
-  // facebook: null,
-  // instagram: null,
-  // twitter: null,
+  facebook: null,
+  instagram: null,
+  twitter:"https://twitter.com/melikeekilic",
 };
 
 /*=====================
@@ -52,7 +51,7 @@ const bannerSection = {
   //Note:Simply add you avatar image in src/assets/imgs folder 
   //and add the name along with extention e.g xyz.png , abc.svg
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
-  bannerAvatar: "mel.jpg",
+  bannerAvatar: "me-homepage.jpg",
   resumeLink:
     "https://docs.google.com/document/d/1-Y2Wlbnle-u4WTFK_7Eh7QIU1UhGS_1Fi4SROZ3YLpU/edit?usp=sharing",
 };
@@ -119,13 +118,42 @@ const skillsSection = {
     Desc: This section hlep you configure your github repos section 
 ==========================*/
 const openSourceSection = {
-  
+   education:[
+    {
+      educationTitle: "Flatiron School",
+      educationDesc:
+        " Throughout the fifteen weeks, the 9-hour-per-day immersive course, I have learned how to write/read/debug code and gained hands-on practice. The program also included pair-programming sessions and group projects where I have improved my ability to collaborate and participate in teamwork effectively.  ",
+      educationDuration: "15 weeks",
+      educationTags: ["Flatiron School", "Junior Web Developer", "Houston"],
+    },
+    {
+      educationTitle: "GED",
+      educationDesc:
+        "When I arrived in the U.S., I didn't have a high school diploma, and I had a 2 years gap. Instead of going to school for two years, which was something I wasn't ready after everything I had been through, I took and passed all the GED tests in two months. That filled the gap.",
+      educationDuration: "2 months",
+      educationTags: ["GED Diploma", "August 2019", "San Antonio"],
+    },
+    {
+      educationTitle: "Fleeing my country & No external education data",
+      educationDesc:
+        "After 10th grade, my family and I had to run away due to political reasons. We fled the country by a fisherman's boat and lived in Greece for almost two years. During my time in Greece, I couldn't go to school.",
+      educationDuration: "21 months",
+      educationTags: ["refugee", "greece", "turkey"],
+    },
+    {
+      educationTitle: "Turk Telekom Social Sciences High School",
+      educationDesc:
+        "I have studied the first three years of high school, which included a year of IB Diploma Programme  (An assessed program for students aged 16 to 19. Leading universities across the globe respect it.)",
+      educationDuration: "09/2014-05/2017",
+      educationTags: ["International Baccalaureate", "09/2014-05/2017","Ankara, Turkey"],
+    },
+   ]
   //Note :  don't edit the githubToken
-  githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
+  // githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
-  githubUserName: "melkilic",
-  //Note :  no of open source projects you want to show.
-  numberOfRepos: 6,
+  // githubUserName: "melkilic",
+  // //Note :  no of open source projects you want to show.
+  // numberOfRepos: 6,
 };
 
 /*=====================
@@ -139,8 +167,8 @@ const projectsSection = {
       projectName: "Covid TrackR",
       projectBio:
         "A real-time tracking app where you can display the overall COVID-19 information in the U.S, detailed information about the states, and view the hospital information based on the location you type.",
-      projectUrl: "https://github.com/melkilic/Final-Project",
-      projectUrl2: "https://www.youtube.com/watch?v=XieW3SVlqjo&t=95s",
+        projectUrl: "https://www.youtube.com/watch?v=7Sklsae1jFA&t=10s",
+        projectImg:'./assets/imgs/final1.png',
       stackList: ["React","Redux","Chart","Ruby on Rails", "Mapbox","Google Maps"],
     },
     {
@@ -149,7 +177,7 @@ const projectsSection = {
         "An e-commerce app for purchasing products online. View our products, search them by categories, display the store locations, save your items to the cart, and let shopping be more fun on Shoptastic!",
 
       projectUrl: "https://www.youtube.com/watch?v=cYX3iiiI_n8&t=1s",
-      projectUrl2: "https://github.com/isaac-3/Shop-Mod4-React-Project",
+      projectImg:'./assets/imgs/final.png',
       stackList: ["React.js", "Target API", "Ruby on Rails", "React Google Maps", "React Bootstrap"],
     },
     {
@@ -158,7 +186,7 @@ const projectsSection = {
         "An alternative website to IMDB where you can create your profile, browse movies, find movies based on their genre, and add movies to your watchlist!",
 
       projectUrl: "https://www.youtube.com/watch?v=HkpFnpbXXlE",
-      projectUrl2: "https://github.com/faizah1992/Project-CineMass",
+      projectImg:'./assets/imgs/dummy-project.png',
       stackList: ["Ruby on Rails", "Vanilla JavaScript", "Bootstrap"],
     }
   ],
@@ -180,8 +208,7 @@ const experienceSection = {
     },
     {
       experienceTitle: "Teacher Assistant @ Raindrop Foundation",
-      experienceDesc:
-        "Manages the competition team and Ensures everyone is satisfied. Design and develop innovative competition for ITEC and reexamines it.",
+      experienceDesc: "I had the privilege of working for Raindrop Foundation in a teacher assistant/volunteer role in my free time, where I learned valuable skillssuch as instructional techniques, lesson planning and grading.",
       experienceDuration: "06/2019-03/2020",
       experienceTags: ["Raindrop Foundation", "06/2019-03/2020","Teacher Assistant"],
     },
@@ -195,7 +222,7 @@ const experienceSection = {
 
 const contactSection = {
   contactTagline:
-    "You can reach me here.",
+    "You can reach me here:",
   // Note : add your all contacts in the contactList seperating with *,* .
   contactList: ["(832) 324-2374", "mk.melikekilic@gmail.com"],
 };
