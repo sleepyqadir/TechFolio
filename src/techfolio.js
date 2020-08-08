@@ -33,9 +33,9 @@ const socialNetworks = {
   //Note : if you dont need or have any social network just add null value
   github: "https://www.github.com/melkilic",
   linkden: "https://www.linkedin.com/in/melike-kilic/",
-  facebook: null,
-  instagram: null,
-  twitter: null,
+  // facebook: null,
+  // instagram: null,
+  // twitter: null,
 };
 
 /*=====================
