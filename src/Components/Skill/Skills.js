@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import "./skills.css";
 import VisibilitySensor from "react-visibility-sensor";
-import skillsIllustration from "../../assets/imgs/me-skills.jpg";
+import skillsIllustration from "../../assets/imgs/skills.jpg";
 import coding from "../../assets/imgs/code-icon.svg"
 import { skillsSection } from "../../techfolio";
 import { ScrollContext } from "../../Context/scroll";
