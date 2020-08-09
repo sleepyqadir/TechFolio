@@ -1,85 +1,60 @@
-import React from "react";
+import React, { useContext } from "react";
+import VisibilitySensor from "react-visibility-sensor";
+import { ScrollContext } from "../../Context/scroll";
 import { Col } from "react-flexbox-grid";
 
-function GitHubCard({ repo }) {
+function GitHubCard({ education }) {
+  const { scrollChange } = useContext(ScrollContext);
   return (
-    <Col xs={12} lg={6}>
-      <div
-        className="repo_card"
-        key={repo.node.id}
-        onClick={() => {
-          var win = window.open(repo.node.url, "_blank");
-          win.focus();
-        }}
-      >
-        <div className="repo_title_container">
+    <div id="time_line_5cf90ca818f641" className="time_line-item  item_show">
+      <div className="time_line-date_wrap">
+        <div className="seofy_hexagon">
           <svg
-            aria-hidden="true"
-            className="octicon repo-svg"
-            height="24"
-            role="img"
-            viewBox="0 0 12 16"
-            width="12"
-            fill="#94a1b2"
+            style={{ fill: " #3e8a7d" }}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 177.4 197.4"
           >
-            <path
-              fillRule="evenodd"
-              d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"
-            ></path>
+            <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"></path>
           </svg>
-          <p className="repo_title">{repo.node.name}</p>
         </div>
-        <p className="repo_description">{repo.node.description}</p>
-        <div className="repo_stats">
-          <div className="repo_stats_left">
-            <span>
-              <div
-                className="language_color"
-                style={{ backgroundColor: repo.node.primaryLanguage.color }}
-              ></div>
-              <p>{repo.node.primaryLanguage.name}</p>
-            </span>
-            <span>
-              <svg
-                aria-hidden="true"
-                className="octicon repo-star-svg"
-                height="16"
-                role="img"
-                viewBox="0 0 10 16"
-                width="10"
-                fill="rgb(106, 115, 125)"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"
-                ></path>
-              </svg>
-              <p>{repo.node.forkCount}</p>
-            </span>
-            <span>
-              <svg
-                aria-hidden="true"
-                className="repo_stars octicon"
-                height="16"
-                role="img"
-                viewBox="0 0 14 16"
-                width="14"
-                fill="rgb(106, 115, 125)"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"
-                ></path>
-              </svg>
-              <p>{repo.node.stargazers.totalCount}</p>
-            </span>
-          </div>
-          <div className="repo_stats_right">
-            <p>{repo.node.diskUsage} KB</p>
+        <div className="seofy_hexagon">
+          <svg
+            style={{
+              fill: " ##3e8a7d",
+              filter: "drop-shadow(4px 5px 4px #3e8a7d22)",
+            }}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 177.4 197.4"
+          >
+            <path d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"></path>
+          </svg>
+        </div>
+
+        <VisibilitySensor
+          onChange={(isVisible) => {
+            if (isVisible) {
+              scrollChange("github");
+            }
+          }}
+        >
+          <h4 className="time_line-date">{education.educationDuration}</h4>
+        </VisibilitySensor>
+      </div>
+      <div className="time_line-content">
+        <h5 className="time_line-title">{education.educationTitle}</h5>
+        <div className="time_line-descr">{education.educationDesc}</div>
+        <div className="languages">
+          <div className="languages-profile">
+            <div className="languages-name">
+              {education.educationTags.map((tag, i) => {
+                return <span key={i}>{tag}</span>;
+              })}
+            </div>
           </div>
         </div>
       </div>
-    </Col>
+    </div>
   );
 }
+
 export default GitHubCard;

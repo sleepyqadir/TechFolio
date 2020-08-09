@@ -8,7 +8,7 @@ function ExperienceCard({ experience }) {
       <div className="time_line-date_wrap">
         <div className="seofy_hexagon">
           <svg
-            style={{ fill: " #7f5af0" }}
+            style={{ fill: " #3e8a7d" }}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 177.4 197.4"
           >
@@ -18,8 +18,8 @@ function ExperienceCard({ experience }) {
         <div className="seofy_hexagon">
           <svg
             style={{
-              fill: " #7f5af0",
-              filter: "drop-shadow(4px 5px 4px #7f5af022)",
+              fill: " ##3e8a7d",
+              filter: "drop-shadow(4px 5px 4px #3e8a7d22)",
             }}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 177.4 197.4"

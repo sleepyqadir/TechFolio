@@ -66,7 +66,7 @@ function Navbar() {
                   toggleOpen(!open);
                 }}
               >
-                <p>Open Source</p>
+                <p>Education</p>
               </ScrollTo>
             </li>
             <li>
@@ -92,7 +92,7 @@ function Navbar() {
                   toggleOpen(!open);
                 }}
               >
-                <p>Experiences</p>
+                <p>Experience</p>
               </ScrollTo>
             </li>
             <li>

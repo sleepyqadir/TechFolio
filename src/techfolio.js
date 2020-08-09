@@ -11,16 +11,15 @@ import emoji from "react-easy-emoji";
 /* 9. Contact Section */
 
 /* wrap your text in emoji("") if you want to show emoji in your text
-
 /*=====================
     1. Main App
     Desc: set what's in the document's head section
 ==========================*/
 
 const app = {
-  title: "AbdulQadir Portfolio",
+  title: "Melike Kilic Portfolio",
   // Note : consider leaving null if you dont have any head icon
-  icon: "ayin_qoph.png",
+  // icon: "mel.jpg",
   description: "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
 };
 
@@ -31,11 +30,11 @@ const app = {
 
 const socialNetworks = {
   //Note : if you dont need or have any social network just add null value
-  github: "https://github.com/AQadir64",
-  linkden: null,
-  facebook: "https://www.facebook.com/profile.php?id=100006896625330",
-  instagram: "https://www.instagram.com/_ayin_qoph/",
-  twitter: null,
+  github: "https://www.github.com/melkilic",
+  linkden: "https://www.linkedin.com/in/melike-kilic/",
+  facebook: null,
+  instagram: null,
+  twitter:"https://twitter.com/melikeekilic",
 };
 
 /*=====================
@@ -44,17 +43,17 @@ const socialNetworks = {
 ==========================*/
 
 const bannerSection = {
-  username: "Abdul Qadir",
-  bannerHeading: "Marhabaan.",
+  username: "Melike Kilic",
+  bannerHeading: "Hi, there!",
   bannerTagLine: emoji(
-    "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer 😀 Who loves to play with different stacks and love to give breath to Ui/Ux designs."
+    "I am Melike, a recent graduate from Flatiron School and a brand-new junior developer based in Houston, TX.😀"
   ),
   //Note:Simply add you avatar image in src/assets/imgs folder 
   //and add the name along with extention e.g xyz.png , abc.svg
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
-  bannerAvatar: "avatar.jpeg",
+  bannerAvatar: "me-homepage.jpg",
   resumeLink:
-    "https://drive.google.com/file/d/1C9wylYtAU9NbZaBwmQ6uGmNWmWS8_I6F/view?usp=sharing",
+    "https://docs.google.com/document/d/1-Y2Wlbnle-u4WTFK_7Eh7QIU1UhGS_1Fi4SROZ3YLpU/edit?usp=sharing",
 };
 
 /*=====================
@@ -65,11 +64,11 @@ const bannerSection = {
 ==========================*/
 
 const aboutSection = {
-  admin: "ayin_qoph@ayin_qoph",
+  admin: "melkilic@melkilic",
   firstCommand: " sudo run about.exe",
   secondCommand: " executing about.exe",
   about:
-    "Computer Science Student and Full Stack Developer. Passionate about solving problems that will benefit others in the area of IT or in real life. from haven't think about computer science and then picking it as a carrier back in 2017 I have discovered a lot in this system. But outside it, I'm just an ordinary karachitte man who loves to do mobile photography and write thoughts.",
+  "How did everything start? Being a language-lover, I knew that languages were so powerful that they were building bridges between people of various cultures. Though, I had no idea about programming languages until very recently when I decided to develop my career in this field. After exposing myself to programming languages for a while, I did realize that programming languages were nothing less than human languages in this sense as they make communication between people and computers possible. That was when I made my mind up to make a career in tech. Linguaphile turned programmer :) "
 };
 
 /*=====================
@@ -80,9 +79,9 @@ const aboutSection = {
 const skillsSection = {
   // Recommended : don't add more than 3 skill taglines.
   skillsTagLines: [
-    "Excitable towards giving breath to different mockup PSDs and web designs using Html / Css and Scss.",
-    "Love to Build Scalable web and native application using React with the several stacks, packages, and services.",
-    "Also Passionate towards other stuff like WordPress development, python scripting, and Dev-Ops.",
+    "I am full of excitement and energy when I am building a project.",
+    "Working with APIs in my React applications with several stacks, packages, and services is my thing.",
+    "I am also passionate about collaborating and doing teamwork.",
   ],
 
   // Recommended : don't add more than 12 skills.
@@ -97,35 +96,20 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      fontAwesomeClassname: "fab fa-sass",
-    },
-    {
       fontAwesomeClassname: "fab fa-js",
     },
     {
       fontAwesomeClassname: "fab fa-react",
     },
+    // {
+    //   fontAwesomeClassname: "fab fa-npm",
+    // },
     {
-      fontAwesomeClassname: "fab fa-node",
+      fontAwesomeClassname: "fab fa-github-square"
     },
     {
-      fontAwesomeClassname: "fab fa-npm",
-    },
-    {
-      fontAwesomeClassname: "fas fa-fire",
-    },
-    {
-      fontAwesomeClassname: "fab fa-wordpress",
-    },
-    {
-      fontAwesomeClassname: "fab fa-python",
-    },
-    {
-      fontAwesomeClassname: "fab fa-linux",
-    },
-    {
-      fontAwesomeClassname: "fab fa-docker",
-    },
+      fontAwesomeClassname: "fab fa-bootstrap"
+    }
   ],
 };
 
@@ -134,13 +118,42 @@ const skillsSection = {
     Desc: This section hlep you configure your github repos section 
 ==========================*/
 const openSourceSection = {
-  
+   education:[
+    {
+      educationTitle: "Flatiron School",
+      educationDesc:
+        " Throughout the fifteen weeks, the 9-hour-per-day immersive course, I have learned how to write/read/debug code and gained hands-on practice. The program also included pair-programming sessions and group projects where I have improved my ability to collaborate and participate in teamwork effectively.  ",
+      educationDuration: "15 weeks",
+      educationTags: ["Flatiron School", "Junior Web Developer", "Houston"],
+    },
+    {
+      educationTitle: "GED",
+      educationDesc:
+        "When I arrived in the U.S., I didn't have a high school diploma, and I had a 2 years gap. Instead of going to school for two years, which was something I wasn't ready after everything I had been through, I took and passed all the GED tests in two months. That filled the gap.",
+      educationDuration: "2 months",
+      educationTags: ["GED Diploma", "August 2019", "San Antonio"],
+    },
+    {
+      educationTitle: "Fleeing my country & No external education data",
+      educationDesc:
+        "After 10th grade, my family and I had to run away due to political reasons. We fled the country by a fisherman's boat and lived in Greece for almost two years. During my time in Greece, I couldn't go to school.",
+      educationDuration: "21 months",
+      educationTags: ["refugee", "greece", "turkey"],
+    },
+    {
+      educationTitle: "Turk Telekom Social Sciences High School",
+      educationDesc:
+        "I have studied the first three years of high school, which included a year of IB Diploma Programme  (An assessed program for students aged 16 to 19. Leading universities across the globe respect it.)",
+      educationDuration: "09/2014-05/2017",
+      educationTags: ["International Baccalaureate", "09/2014-05/2017","Ankara, Turkey"],
+    },
+   ]
   //Note :  don't edit the githubToken
-  githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
+  // githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
-  githubUserName: "AQadir64",
-  //Note :  no of open source projects you want to show.
-  numberOfRepos: 6,
+  // githubUserName: "melkilic",
+  // //Note :  no of open source projects you want to show.
+  // numberOfRepos: 6,
 };
 
 /*=====================
@@ -151,38 +164,31 @@ const openSourceSection = {
 const projectsSection = {
   projects: [
     {
-      projectName: "BubuSoft",
+      projectName: "Covid TrackR",
       projectBio:
-        "DREAM BIG, ACT NOW ––– is the new motto. BabuSoft a bird’s eye view of the tech industry for all the novel ideas that you can turn into reality",
-
-      projectUrl: "https://babusoft.netlify.app/",
-      stackList: ["React", "Ant Design", "Sass", "Device Detect"],
+        "A real-time tracking app where you can display the overall COVID-19 information in the U.S, detailed information about the states, and view the hospital information based on the location you type.",
+        projectUrl: "https://www.youtube.com/watch?v=7Sklsae1jFA&t=10s",
+        projectImg:'./assets/imgs/final1.png',
+      stackList: ["React","Redux","Chart","Ruby on Rails", "Mapbox","Google Maps"],
     },
     {
-      projectName: "E-Trans Pakistan",
+      projectName: "Shoptastic",
       projectBio:
-        "E-Trans Pakistan emerge as first in its class within the city of Karachi in Sindh, offering chauffeur-driven services.",
+        "An e-commerce app for purchasing products online. View our products, search them by categories, display the store locations, save your items to the cart, and let shopping be more fun on Shoptastic!",
 
-      projectUrl: "https://etranspakistan.com/",
-      stackList: ["Wordpress", "plugins", "css"],
+      projectUrl: "https://www.youtube.com/watch?v=cYX3iiiI_n8&t=1s",
+      projectImg:'./assets/imgs/final.png',
+      stackList: ["React.js", "Target API", "Ruby on Rails", "React Google Maps", "React Bootstrap"],
     },
     {
-      projectName: "Covid-19 Tracker",
+      projectName: "CineMass",
       projectBio:
-        "Covid-19 is an real-time web application which give real-time update about the corono-virus cases in the world build on ReactJs",
+        "An alternative website to IMDB where you can create your profile, browse movies, find movies based on their genre, and add movies to your watchlist!",
 
-      projectUrl: "https://orthocovid-19.netlify.app/",
-      stackList: ["React", "Ant Design", "Sass", "AmCharts", "GeoData"],
-    },
-
-    {
-      projectName: "Cheating Detector",
-      projectBio:
-        "Cheating Detector Desktop app checks the similarity b/w different PDFs,documents ,images and text",
-
-      projectUrl: "/",
-      stackList: ["Electron", "Python", "Open Cv", "OCR", "Flask"],
-    },
+      projectUrl: "https://www.youtube.com/watch?v=HkpFnpbXXlE",
+      projectImg:'./assets/imgs/dummy-project.png',
+      stackList: ["Ruby on Rails", "Vanilla JavaScript", "Bootstrap"],
+    }
   ],
 };
 
@@ -194,27 +200,17 @@ const projectsSection = {
 const experienceSection = {
   experiences: [
     {
-      experienceTitle: "React Boot Camper",
+      experienceTitle: "In job search",
       experienceDesc:
-        "Successfully learned to React from 0%. Developed and Implement different React projects in the group. Improved communication skills while interacting with people of a different caliber.",
-      // Recommended : don't add full date.
-      experienceDuration: "12/18-05/19",
-      // Recommended : don't add more than 3 tags.
-      experienceTags: ["Panacloud", "5 months", "karachi"],
-    },
-    {
-      experienceTitle: "Wordpress Intern",
-      experienceDesc:
-        "Improved remotely managing skills by giving 20+ hours per week. Expanded knowledge of creating static and responsive sites using WordPress.",
-      experienceDuration: "10/19-11/19",
-      experienceTags: ["Interns Pk", "1.5 month", "Remote"],
-    },
-    {
-      experienceTitle: "Competition Manager",
-      experienceDesc:
-        "Manages the competition team and Ensures everyone is satisfied. Design and develop innovative competition for ITEC and reexamines it.",
+        "I have graduated from Flatiron in June, and am currently looking for a position where I can contribute to the company I work for, and sharpen my coding skills every day. ",
       experienceDuration: "Current",
-      experienceTags: ["ACM", "12/2018-5/2019", "NEDUET"],
+      experienceTags: ["Flatiron School", "Junior Web Developer"],
+    },
+    {
+      experienceTitle: "Teacher Assistant @ Raindrop Foundation",
+      experienceDesc: "I had the privilege of working for Raindrop Foundation in a teacher assistant/volunteer role in my free time, where I learned valuable skillssuch as instructional techniques, lesson planning and grading.",
+      experienceDuration: "06/2019-03/2020",
+      experienceTags: ["Raindrop Foundation", "06/2019-03/2020","Teacher Assistant"],
     },
   ],
 };
@@ -226,9 +222,9 @@ const experienceSection = {
 
 const contactSection = {
   contactTagline:
-    "Hey Folks, Love to see you sliding here, Y'all can reach me.",
+    "You can reach me here:",
   // Note : add your all contacts in the contactList seperating with *,* .
-  contactList: ["03461826315", "a.qadir67@outlook.com"],
+  contactList: ["(832) 324-2374", "mk.melikekilic@gmail.com"],
 };
 
 

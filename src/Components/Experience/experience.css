@@ -1,9 +1,6 @@
-
-
 /*=====================
   
   Experience Section Css
-
 ==========================*/
 
 .experience-row-animation {
@@ -215,7 +212,7 @@
 
 .experience_time_line_vertical .time_line-item:hover .time_line-content {
   transform: translateX(5px);
-  box-shadow: #7f5af0 0px 10px 10px -10px;
+  box-shadow: #3e8a7d 0px 10px 10px -10px;
 }
 
 .experience_time_line_vertical .time_line-item:hover .time_line-date {

@@ -43,7 +43,7 @@ function SideNav() {
           <ScrollTo to="openSource" spy={true} smooth={true} duration={1000}>
             <span className="nav__counter">04</span>
             <h3 className="nav__title nav__title--stroke nav__title--shadow">
-              Open Source
+              Education
             </h3>
           </ScrollTo>
         </li>
@@ -66,7 +66,7 @@ function SideNav() {
           <ScrollTo to="experiences" spy={true} smooth={true} duration={1000}>
             <span className="nav__counter">06</span>
             <h3 className="nav__title nav__title--stroke nav__title--shadow">
-              Experiences
+              Experience
             </h3>
           </ScrollTo>
         </li>
