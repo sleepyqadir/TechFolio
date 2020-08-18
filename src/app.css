@@ -1,10 +1,14 @@
+/**
+ * /*-----------------------------------------------------------------------------------
+ *     Template Name: TechFolio
+ *     Description: A openSource portfolio site
+ *     Author: Abdul Qadir
+ *     Author URI: 
+ * -----------------------------------------------------------------------------------
+ *
+ * @format
+ */
 
-/*-----------------------------------------------------------------------------------
-    Template Name: TechFolio
-    Description: A openSource portfolio site
-    Author: Abdul Qadir
-    Author URI: 
------------------------------------------------------------------------------------ */
 /* 1. General CSS
    1.1. Button CSS
    1.2. Wrapper CSS
@@ -49,7 +53,7 @@ a {
   font-weight: 300;
   color: #fff;
   position: relative;
-  background-color: #16161a;
+  background-color: #776d8a;
 }
 
 section {
@@ -57,7 +61,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #16161a;
+  background-color: #776d8a;
   overflow-x: hidden !important;
 }
 .section_illustration {
@@ -80,7 +84,7 @@ section {
   min-height: 280px;
 }
 .site-header {
-  background-color: #16161a;
+  background-color: #776d8a;
 }
 
 /*=====================
@@ -102,7 +106,7 @@ section {
   color: transparent;
 }
 .logo--shadow {
-  text-shadow: 6px 6px #6e9c95;
+  text-shadow: 6px 6px #59405c;
 }
 
 /*=====================
@@ -145,7 +149,7 @@ section {
   margin-right: 10px;
 }
 .banner-content .btn-1:hover {
-  box-shadow: 0 3px 10px #3e8a7d !important;
+  box-shadow: 0 3px 10px #59405c !important;
 }
 
 .wrap-image,
@@ -153,7 +157,7 @@ section {
   position: relative;
 }
 
-.wrap-image img{
+.wrap-image img {
   max-width: 100% !important;
 }
 
@@ -170,12 +174,12 @@ section {
   height: 100%;
   position: absolute;
   z-index: -1;
-  border: 2px solid #3e8a7d;
+  border: 2px solid #59405c;
   transition: all 0.25s ease-out;
 }
 .wrap-image::before,
 .wrap-default::before {
-  background-color: #3e8a7d;
+  background-color: #59405c;
   top: -15px;
   left: -30px;
 }
@@ -211,7 +215,7 @@ section {
 }
 .overlay:before {
   content: "";
-  background: #3e8a7d;
+  background: #59405c;
   left: -55%;
   top: 0;
   width: 50%;
@@ -221,7 +225,7 @@ section {
 }
 .overlay:after {
   content: "";
-  background: #3e8a7d;
+  background: #59405c;
   right: -55%;
   top: 0;
   width: 50%;
@@ -360,7 +364,7 @@ section {
   color: transparent;
 }
 .nav__title--shadow {
-  text-shadow: 6px 6px #3e8a7d;
+  text-shadow: 6px 6px #59405c;
 }
 
 .nav li {
@@ -721,7 +725,7 @@ footer .content .techfolio_copyright {
   .wrap-default::after {
     width: 0%;
     height: 0%;
-    border: 0px solid #3e8a7d;
+    border: 0px solid #59405c;
   }
   .wrap-default::before {
     background-color: transparent;
@@ -814,11 +818,11 @@ footer .content .techfolio_copyright {
     height: 100%;
     position: absolute;
     z-index: -1;
-    border: 2px solid #3e8a7d;
+    border: 2px solid #59405c;
     transition: all 0.25s ease-out;
   }
   .wrap-image::before {
-    background-color:#3e8a7d;
+    background-color: #59405c;
     top: -15px;
     left: -30px;
   }
@@ -854,7 +858,7 @@ footer .content .techfolio_copyright {
   }
   /*-----------------------------------  */
   .banner-btns .btn-3:hover {
-    box-shadow: 0 2px 10px #3e8a7d !important;
+    box-shadow: 0 2px 10px #59405c !important;
   }
   .banner-content {
     text-align: center;

@@ -1,11 +1,13 @@
+/** @format */
+
 import React, { useContext, Fragment } from "react";
 import { Col, Row } from "react-flexbox-grid";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import "./skills.css";
 import VisibilitySensor from "react-visibility-sensor";
-import skillsIllustration from "../../assets/imgs/img-skills.jpg";
-import coding from "../../assets/imgs/code-icon.svg"
+import skillsIllustration from "../../assets/imgs/img-skills.png";
+import coding from "../../assets/imgs/code-icon.svg";
 import { skillsSection } from "../../techfolio";
 import { ScrollContext } from "../../Context/scroll";
 import { isMobile } from "react-device-detect";
@@ -23,12 +25,7 @@ function Skills() {
   const skillsTagLines = skillsSection.skillsTagLines.map((tagline, i) => {
     return (
       <h3 className="skills_section_skill" key={i}>
-        <img
-          draggable="false"
-          className="emoji"
-          alt="💠"
-          src={coding}
-        ></img>
+        <img draggable="false" className="emoji" alt="💠" src={coding}></img>
         {tagline}
       </h3>
     );

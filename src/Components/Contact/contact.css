@@ -1,7 +1,11 @@
-/*=====================
-  
-  Contact Section Css
-==========================*/
+/**
+ * /*=====================
+ *   
+ *   Contact Section Css
+ * ==========================
+ *
+ * @format
+ */
 
 @charset "UTF-8";
 @font-face {
@@ -57,7 +61,7 @@
 }
 .social-networks .ham:hover,
 .social-networks .ham:focus {
-  box-shadow: 0 2px 15px #3e8a7d !important;
+  box-shadow: 0 2px 15px #59405c !important;
 }
 .social-networks .hamBurger {
   font-size: 26px;
@@ -115,42 +119,42 @@
 }
 .social-networks .icon-linkedin:hover:before,
 .social-networks .icon-linkedin:focus:before {
-  box-shadow: 0 2px 15px #3e8a7d !important;
+  box-shadow: 0 2px 15px #59405c !important;
 }
 .social-networks .icon-facebook:after {
   content: "";
 }
 .social-networks .icon-facebook:hover:before,
 .social-networks .icon-facebook:focus:before {
-  box-shadow: 0 2px 15px #3e8a7d !important;
+  box-shadow: 0 2px 15px #59405c !important;
 }
 .social-networks .icon-twitter:after {
   content: "";
 }
 .social-networks .icon-twitter:hover:before,
 .social-networks .icon-twitter:focus:before {
-  box-shadow: 0 2px 15px #3e8a7d !important;
+  box-shadow: 0 2px 15px #59405c !important;
 }
 .social-networks .icon-github:after {
   content: "";
 }
 .social-networks .icon-github:hover:before,
 .social-networks .icon-github:focus:before {
-  box-shadow: 0 2px 15px #3e8a7d !important;
+  box-shadow: 0 2px 15px #59405c !important;
 }
 .social-networks .icon-instagram:after {
   content: "";
 }
 .social-networks .icon-instagram:hover:before,
 .social-networks .icon-instagram:focus:before {
-  box-shadow: 0 2px 15px #3e8a7d !important;
+  box-shadow: 0 2px 15px #59405c !important;
 }
 .social-networks .icon-menu:after {
   content: "";
 }
 .social-networks .icon-menu:hover:before,
 .social-networks .icon-menu:focus:before {
-  box-shadow: 0 2px 15px #3e8a7d !important;
+  box-shadow: 0 2px 15px #59405c !important;
 }
 
 @media all and (max-width: 450px) {
