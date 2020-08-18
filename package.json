@@ -50,13 +50,6 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2",
-    "surge": "latest",
-    "git-scripts": "0.2.1"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project ./ --domain melikekilic.surge.sh"
-    }
+    "sass-loader": "^8.0.2"
   }
 }
