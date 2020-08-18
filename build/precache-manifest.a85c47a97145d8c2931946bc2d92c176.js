@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eef9c645f5516d6d5f881757f42798ce",
+    "revision": "5ed79ab288e005a8207b891fc4abbf95",
     "url": "/index.html"
   },
   {
-    "revision": "3a49bdc83fb620da346f",
+    "revision": "b875b32a61ace68bf6e7",
     "url": "/static/css/2.ffdfee16.chunk.css"
   },
   {
-    "revision": "d85d02ed315c4e0ac8a4",
+    "revision": "ceeefeb8ce05d07dc000",
     "url": "/static/css/4.9325fc99.chunk.css"
   },
   {
-    "revision": "6840119599cb5dfc42b0",
+    "revision": "b9a15d1767bad7dffefd",
     "url": "/static/css/main.9c90136a.chunk.css"
   },
   {
-    "revision": "3a49bdc83fb620da346f",
-    "url": "/static/js/2.af1a12ad.chunk.js"
+    "revision": "b875b32a61ace68bf6e7",
+    "url": "/static/js/2.5e239bbf.chunk.js"
   },
   {
     "revision": "573c03b54bf739ab0b9029188d0efb17",
-    "url": "/static/js/2.af1a12ad.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5e239bbf.chunk.js.LICENSE.txt"
   },
   {
     "revision": "14d77b841a1bf24e916c",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/3.b7440e1c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d85d02ed315c4e0ac8a4",
-    "url": "/static/js/4.d6413b65.chunk.js"
+    "revision": "ceeefeb8ce05d07dc000",
+    "url": "/static/js/4.75f208d8.chunk.js"
   },
   {
-    "revision": "6840119599cb5dfc42b0",
-    "url": "/static/js/main.8ec1fab4.chunk.js"
+    "revision": "b9a15d1767bad7dffefd",
+    "url": "/static/js/main.d16d6849.chunk.js"
   },
   {
-    "revision": "ef103defe8e50940b0f0",
-    "url": "/static/js/runtime-main.8804d869.js"
+    "revision": "9f8060899e26bb2aa6b9",
+    "url": "/static/js/runtime-main.33c04177.js"
   },
   {
     "revision": "3e7b4ed42120fe2c30460e8ad09f7070",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9aece68254c95eca4a0875e213e1d521",
     "url": "/static/media/focused_working.9aece682.svg"
+  },
+  {
+    "revision": "bea634b35db70a928ad3a275640c3970",
+    "url": "/static/media/img-skills.bea634b3.png"
   },
   {
     "revision": "d29db6c13c4e1187e2bdee9389257b49",

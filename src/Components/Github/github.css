@@ -1,8 +1,11 @@
-
-/*=====================
-  
-  Open Source Section Css
-==========================*/
+/**
+ * /*=====================
+ *   
+ *   Open Source Section Css
+ * ==========================
+ *
+ * @format
+ */
 
 .repo_card {
   color: #94a1b2;
@@ -13,7 +16,7 @@
   margin: 10px;
 }
 .repo_card:hover {
-  box-shadow: #3e8a7d 0px 10px 10px -10px;
+  box-shadow: #59405c 0px 10px 10px -10px;
 }
 .repo_card .repo_stats {
   display: flex;

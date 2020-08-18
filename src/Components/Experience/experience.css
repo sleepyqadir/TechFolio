@@ -1,7 +1,11 @@
-/*=====================
-  
-  Experience Section Css
-==========================*/
+/**
+ * /*=====================
+ *   
+ *   Experience Section Css
+ * ==========================
+ *
+ * @format
+ */
 
 .experience-row-animation {
   z-index: 1;
@@ -212,7 +216,7 @@
 
 .experience_time_line_vertical .time_line-item:hover .time_line-content {
   transform: translateX(5px);
-  box-shadow: #3e8a7d 0px 10px 10px -10px;
+  box-shadow: #59405c 0px 10px 10px -10px;
 }
 
 .experience_time_line_vertical .time_line-item:hover .time_line-date {
@@ -268,11 +272,11 @@
 }
 
 #time_line_5cf90ca818f641 .time_line-date {
-  color: #feab32;
+  color: #f3e6e3;
 }
 
 #time_line_5cf90ca818f641 .time_line-content:before {
-  background: #feab32;
+  background: #f3e6e3;
 }
 
 @media all and (min-width: 1400px) {

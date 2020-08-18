@@ -1,3 +1,5 @@
+/** @format */
+
 import emoji from "react-easy-emoji";
 
 /* 1. Main App */
@@ -20,7 +22,6 @@ const app = {
   title: "Melike Kilic Portfolio",
   // Note : consider leaving null if you dont have any head icon
   // icon: "mel.jpg",
-  description: "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
 };
 
 /*=====================
@@ -34,7 +35,7 @@ const socialNetworks = {
   linkden: "https://www.linkedin.com/in/melike-kilic/",
   facebook: null,
   instagram: null,
-  twitter:"https://twitter.com/melikeekilic",
+  twitter: "https://twitter.com/melikeekilic",
 };
 
 /*=====================
@@ -48,7 +49,7 @@ const bannerSection = {
   bannerTagLine: emoji(
     "I am Melike, a recent graduate from Flatiron School and a brand-new junior developer based in Houston, TX.😀"
   ),
-  //Note:Simply add you avatar image in src/assets/imgs folder 
+  //Note:Simply add you avatar image in src/assets/imgs folder
   //and add the name along with extention e.g xyz.png , abc.svg
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
   bannerAvatar: "me-homepage.jpg",
@@ -68,7 +69,7 @@ const aboutSection = {
   firstCommand: " sudo run about.exe",
   secondCommand: " executing about.exe",
   about:
-  "How did everything start? Being a language-lover, I knew that languages were so powerful that they were building bridges between people of various cultures. Though, I had no idea about programming languages until very recently when I decided to develop my career in this field. After exposing myself to programming languages for a while, I did realize that programming languages were nothing less than human languages in this sense as they make communication between people and computers possible. That was when I made my mind up to make a career in tech. Linguaphile turned programmer :) "
+    "How did everything start? Being a language-lover, I knew that languages were so powerful that they were building bridges between people of various cultures. Though, I had no idea about programming languages until very recently when I decided to develop my career in this field. After exposing myself to programming languages for a while, I did realize that programming languages were nothing less than human languages in this sense as they make communication between people and computers possible. That was when I made my mind up to make a career in tech. Linguaphile turned programmer :) ",
 };
 
 /*=====================
@@ -85,7 +86,7 @@ const skillsSection = {
   ],
 
   // Recommended : don't add more than 12 skills.
-  // Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show 
+  // Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show
   //        > copy its class > paste it as {fontAwesomeClassname: "fab fa-html5"} in SkillsSet
 
   skillsSet: [
@@ -105,11 +106,11 @@ const skillsSection = {
     //   fontAwesomeClassname: "fab fa-npm",
     // },
     {
-      fontAwesomeClassname: "fab fa-github-square"
+      fontAwesomeClassname: "fab fa-github-square",
     },
     {
-      fontAwesomeClassname: "fab fa-bootstrap"
-    }
+      fontAwesomeClassname: "fab fa-bootstrap",
+    },
   ],
 };
 
@@ -118,7 +119,7 @@ const skillsSection = {
     Desc: This section hlep you configure your github repos section 
 ==========================*/
 const openSourceSection = {
-   education:[
+  education: [
     {
       educationTitle: "Flatiron School",
       educationDesc:
@@ -145,9 +146,13 @@ const openSourceSection = {
       educationDesc:
         "I have studied the first three years of high school, which included a year of IB Diploma Programme  (An assessed program for students aged 16 to 19. Leading universities across the globe respect it.)",
       educationDuration: "09/2014-05/2017",
-      educationTags: ["International Baccalaureate", "09/2014-05/2017","Ankara, Turkey"],
+      educationTags: [
+        "International Baccalaureate",
+        "09/2014-05/2017",
+        "Ankara, Turkey",
+      ],
     },
-   ]
+  ],
   //Note :  don't edit the githubToken
   // githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
@@ -167,9 +172,16 @@ const projectsSection = {
       projectName: "Covid TrackR",
       projectBio:
         "A real-time tracking app where you can display the overall COVID-19 information in the U.S, detailed information about the states, and view the hospital information based on the location you type.",
-        projectUrl: "https://www.youtube.com/watch?v=7Sklsae1jFA&t=10s",
-        projectImg:'./assets/imgs/final1.png',
-      stackList: ["React","Redux","Chart","Ruby on Rails", "Mapbox","Google Maps"],
+      projectUrl: "https://www.youtube.com/watch?v=7Sklsae1jFA&t=10s",
+      projectImg: "./assets/imgs/final1.png",
+      stackList: [
+        "React",
+        "Redux",
+        "Chart",
+        "Ruby on Rails",
+        "Mapbox",
+        "Google Maps",
+      ],
     },
     {
       projectName: "Shoptastic",
@@ -177,8 +189,14 @@ const projectsSection = {
         "An e-commerce app for purchasing products online. View our products, search them by categories, display the store locations, save your items to the cart, and let shopping be more fun on Shoptastic!",
 
       projectUrl: "https://www.youtube.com/watch?v=cYX3iiiI_n8&t=1s",
-      projectImg:'./assets/imgs/final.png',
-      stackList: ["React.js", "Target API", "Ruby on Rails", "React Google Maps", "React Bootstrap"],
+      projectImg: "./assets/imgs/final.png",
+      stackList: [
+        "React.js",
+        "Target API",
+        "Ruby on Rails",
+        "React Google Maps",
+        "React Bootstrap",
+      ],
     },
     {
       projectName: "CineMass",
@@ -186,9 +204,9 @@ const projectsSection = {
         "An alternative website to IMDB where you can create your profile, browse movies, find movies based on their genre, and add movies to your watchlist!",
 
       projectUrl: "https://www.youtube.com/watch?v=HkpFnpbXXlE",
-      projectImg:'./assets/imgs/dummy-project.png',
+      projectImg: "./assets/imgs/dummy-project.png",
       stackList: ["Ruby on Rails", "Vanilla JavaScript", "Bootstrap"],
-    }
+    },
   ],
 };
 
@@ -208,9 +226,14 @@ const experienceSection = {
     },
     {
       experienceTitle: "Teacher Assistant @ Raindrop Foundation",
-      experienceDesc: "I had the privilege of working for Raindrop Foundation in a teacher assistant/volunteer role in my free time, where I learned valuable skillssuch as instructional techniques, lesson planning and grading.",
+      experienceDesc:
+        "I had the privilege of working for Raindrop Foundation in a teacher assistant/volunteer role in my free time, where I learned valuable skillssuch as instructional techniques, lesson planning and grading.",
       experienceDuration: "06/2019-03/2020",
-      experienceTags: ["Raindrop Foundation", "06/2019-03/2020","Teacher Assistant"],
+      experienceTags: [
+        "Raindrop Foundation",
+        "06/2019-03/2020",
+        "Teacher Assistant",
+      ],
     },
   ],
 };
@@ -221,12 +244,10 @@ const experienceSection = {
 ==========================*/
 
 const contactSection = {
-  contactTagline:
-    "You can reach me here:",
+  contactTagline: "You can reach me here:",
   // Note : add your all contacts in the contactList seperating with *,* .
   contactList: ["(832) 324-2374", "mk.melikekilic@gmail.com"],
 };
-
 
 // Bingo :))
 

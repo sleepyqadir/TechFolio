@@ -1,9 +1,10 @@
-
-/*=====================
-    About Section Css
-==========================*/
-
-
+/**
+ * /*=====================
+ *     About Section Css
+ * ==========================
+ *
+ * @format
+ */
 
 .about_section {
   font-size: 16px;
@@ -35,7 +36,7 @@
 }
 
 .line span {
-  color: #3e8a7d;
+  color: #59405c;
 }
 
 .screen {

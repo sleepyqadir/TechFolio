@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useContext, Fragment } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import Typist from "react-typist";
@@ -44,14 +46,14 @@ function About() {
                           <p className="line">
                             {" "}
                             {aboutSection.admin}:
-                            <span style={{ color: "#3e8a7d" }}>~</span>$
+                            <span style={{ color: "#59405c" }}>~</span>$
                             {aboutSection.firstCommand}
                           </p>
                           <Typist.Delay ms={1000} />
                           <p className="line">
                             {" "}
                             {aboutSection.admin}:
-                            <span style={{ color: "#3e8a7d" }}>~</span>$
+                            <span style={{ color: "#59405c" }}>~</span>$
                             {aboutSection.secondCommand}
                           </p>
                           <br />
@@ -59,7 +61,7 @@ function About() {
                           <span>
                             {" "}
                             {aboutSection.admin}:
-                            <span style={{ color: "#3e8a7d" }}>~</span>${" "}
+                            <span style={{ color: "#59405c" }}>~</span>${" "}
                           </span>
                         </Typist>
                       </h2>

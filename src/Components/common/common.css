@@ -1,8 +1,13 @@
-/*=====================
-    TechFolio loading common Component Css
-==========================*/
+/**
+ * /*=====================
+ *     TechFolio loading common Component Css
+ * ==========================
+ *
+ * @format
+ */
+
 body {
-  background-color: #3e8a7d;
+  background-color: #59405c;
 }
 .loaderHeading {
   position: absolute;
