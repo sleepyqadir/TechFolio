@@ -8,7 +8,7 @@
  */
 
 .skills_section_skill {
-  color: #94a1b2;
+  color: white;
   letter-spacing: -0.4px;
   line-height: 22px;
   font-size: 18px;
@@ -41,7 +41,7 @@
   }
   .skill_img {
     font-size: 30px;
-    color: #72757e;
+    color: white;
   }
   .skill_img:hover {
     color: #59405c;
@@ -64,6 +64,6 @@
   }
   .skill_img {
     font-size: 60px;
-    color: #72757e;
+    color: white;
   }
 }
