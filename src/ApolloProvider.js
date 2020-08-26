@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { Suspense } from "react";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "@apollo/react-hooks";

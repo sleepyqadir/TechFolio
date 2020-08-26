@@ -130,7 +130,7 @@ const openSourceSection = {
     {
       educationTitle: "GED",
       educationDesc:
-        "When I arrived in the U.S., I didn't have a high school diploma, and I had a 2 years gap. Instead of going to school for two years, which was something I wasn't ready after everything I had been through, I took and passed all the GED tests in two months. That filled the gap.",
+        "When I arrived in the U.S., I didn't have a high school diploma, and I had a 2-year gap. Instead of going to school for two more years to get a high school diploma, which was something I wasn't psychologically ready after everything I had been through, I took and passed all the GED tests in two months. That filled the gap.",
       educationDuration: "06/2019-08/2019",
       educationTags: ["GED Diploma", "August 2019", "San Antonio"],
     },

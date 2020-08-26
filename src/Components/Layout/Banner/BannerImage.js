@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { Fragment } from "react";
 import { Col } from "react-flexbox-grid";
 import Flip from "react-reveal/Flip";

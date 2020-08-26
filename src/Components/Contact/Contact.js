@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useContext, Fragment } from "react";
 import { Col, Row } from "react-flexbox-grid";
 import Fade from "react-reveal/Fade";
@@ -15,9 +17,7 @@ function Contact() {
   const contactList = contactSection.contactList.map((contact, i) => {
     return (
       <Col xs={12} key={i}>
-        <h2 className="contact_section_contact">
-          {contact}
-        </h2>
+        <h2 className="contact_section_contact">{contact}</h2>
       </Col>
     );
   });

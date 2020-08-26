@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState, Fragment } from "react";
 import { Link as ScrollTo } from "react-scroll";
 function Navbar() {
@@ -27,7 +29,7 @@ function Navbar() {
                   toggleOpen(!open);
                 }}
               >
-                <p >Home</p>
+                <p>Home</p>
               </ScrollTo>
             </li>
             <li>
@@ -40,7 +42,7 @@ function Navbar() {
                   toggleOpen(!open);
                 }}
               >
-                <p >About</p>
+                <p>About</p>
               </ScrollTo>
             </li>
             <li>

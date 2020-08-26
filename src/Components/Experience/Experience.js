@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { Fragment } from "react";
 import ExperienceCard from "./ExperienceCard";
 import Fade from "react-reveal/Fade";
