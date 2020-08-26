@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import { Helmet } from "react-helmet";
 export default function AppHelmet({ app }) {
@@ -10,7 +12,9 @@ export default function AppHelmet({ app }) {
       <link
         rel="icon"
         type="image/png"
-        href={require(`../../assets/imgs/${app.icon ? app.icon : "icon.png"}`)}
+        href={require(`../../assets/imgs/${
+          app.icon ? app.icon : "favicon.ico"
+        }`)}
         sizes="500x500"
       />
     </Helmet>

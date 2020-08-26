@@ -1,5 +1,7 @@
+/** @format */
+
 import React, { useContext, Fragment } from "react";
-import { Row} from "react-flexbox-grid";
+import { Row } from "react-flexbox-grid";
 import VisibilitySensor from "react-visibility-sensor";
 import { ScrollContext } from "../../../Context/scroll";
 import BannerContent from "./BannerContent";

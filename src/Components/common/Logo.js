@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import { Col } from "react-flexbox-grid";
 import Fade from "react-reveal/Fade";

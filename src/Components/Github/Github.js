@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useContext, useState, Fragment } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import Fade from "react-reveal/Fade";
@@ -23,7 +25,7 @@ function Github() {
         id="githubSection"
         name="openSources"
       >
-         <div>
+        <div>
           <Fade bottom>
             <div className="container experience-row-animation">
               <div>

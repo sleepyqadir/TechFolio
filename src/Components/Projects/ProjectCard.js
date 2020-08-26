@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useContext } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import { ScrollContext } from "../../Context/scroll";
@@ -13,7 +15,10 @@ function ProjectCard({ project }) {
       }}
     >
       <div className="project-card">
-        <div onClick= {()=>window.open(project.projectUrl)} className="content-wrapper">
+        <div
+          onClick={() => window.open(project.projectUrl)}
+          className="content-wrapper"
+        >
           <img src={projectImg} alt="" className="project-card-img" />
           <div className="card-content">
             <div className="project-name">{project.projectName}</div>

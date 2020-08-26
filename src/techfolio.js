@@ -80,9 +80,9 @@ const aboutSection = {
 const skillsSection = {
   // Recommended : don't add more than 3 skill taglines.
   skillsTagLines: [
-    "I am full of excitement and energy when I am building a project.",
-    "Working with APIs in my React applications with several stacks, packages, and services is my thing.",
-    "I am also passionate about collaborating and doing teamwork.",
+    "I am efficient and highly organized. This ensures that I am as productive as possible.",
+    "As a perfectionist, I like to be sure that everything is just right and that I pay attention to all the details.",
+    "I enjoy solving problems, trouble-shooting issues, and finding solutions in a as short time as possible.",
   ],
 
   // Recommended : don't add more than 12 skills.
@@ -124,21 +124,21 @@ const openSourceSection = {
       educationTitle: "Flatiron School",
       educationDesc:
         " Throughout the fifteen weeks, the 9-hour-per-day immersive course, I have learned how to write/read/debug code and gained hands-on practice. The program also included pair-programming sessions and group projects where I have improved my ability to collaborate and participate in teamwork effectively.  ",
-      educationDuration: "15 weeks",
+      educationDuration: "03/2020-06/2020",
       educationTags: ["Flatiron School", "Junior Web Developer", "Houston"],
     },
     {
       educationTitle: "GED",
       educationDesc:
-        "When I arrived in the U.S., I didn't have a high school diploma, and I had a 2 years gap. Instead of going to school for two years, which was something I wasn't ready after everything I had been through, I took and passed all the GED tests in two months. That filled the gap.",
-      educationDuration: "2 months",
+        "When I arrived in the U.S., I didn't have a high school diploma, and I had a 2-year gap. Instead of going to school for two more years to get a high school diploma, which was something I wasn't psychologically ready after everything I had been through, I took and passed all the GED tests in two months. That filled the gap.",
+      educationDuration: "06/2019-08/2019",
       educationTags: ["GED Diploma", "August 2019", "San Antonio"],
     },
     {
       educationTitle: "Fleeing my country & No external education data",
       educationDesc:
         "After 10th grade, my family and I had to run away due to political reasons. We fled the country by a fisherman's boat and lived in Greece for almost two years. During my time in Greece, I couldn't go to school.",
-      educationDuration: "21 months",
+      educationDuration: "09/2017-05/2019",
       educationTags: ["refugee", "greece", "turkey"],
     },
     {

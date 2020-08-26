@@ -1,9 +1,11 @@
+/** @format */
+
 import React, { useContext } from "react";
 import { ScrollContext } from "../../../Context/scroll";
 import { Link as ScrollTo } from "react-scroll";
 function SideNav() {
   const { current } = useContext(ScrollContext);
-  console.log(current)
+  console.log(current);
   return (
     <nav className="nav__wrapper" id="navbar-example">
       <ul className="nav">

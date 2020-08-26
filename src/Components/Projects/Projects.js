@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState, Fragment } from "react";
 import Fade from "react-reveal/Fade";
 import ProjectCard from "./ProjectCard";
@@ -15,7 +17,9 @@ function Projects() {
 
   return (
     <Fragment>
-      {isMobile && <Heading heading={"Projects"} style={{ marginBottom: "30px" }} />}
+      {isMobile && (
+        <Heading heading={"Projects"} style={{ marginBottom: "30px" }} />
+      )}
       <section className="section section5" name="projects">
         <div className="site-container">
           <Fade bottom>
